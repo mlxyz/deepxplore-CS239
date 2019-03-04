@@ -55,7 +55,7 @@ model2 = Model2(input_tensor=input_tensor)
 model3 = Model3(input_tensor=input_tensor)
 
 # init coverage table
-model_layer_dict1, model_layer_dict2, model_layer_dict3 = init_coverage_tables(model1, model2, model3)
+model_layer_dict1, indiv_neuron_dict1, model_layer_dict2, indiv_neuron_dict2, model_layer_dict3, indiv_neuron_dict3 = init_coverage_tables(model1, model2, model3)
 
 # ==============================================================================================
 # start gen inputs
@@ -70,11 +70,11 @@ for _ in xrange(args.seeds):
         print(bcolors.OKGREEN + 'input already causes different outputs: {}, {}, {}'.format(label1, label2,
                                                                                             label3) + bcolors.ENDC)
 
-        update_coverage(gen_img, model1, model_layer_dict1, args.threshold)
-        update_coverage(gen_img, model2, model_layer_dict2, args.threshold)
-        update_coverage(gen_img, model3, model_layer_dict3, args.threshold)
+        update_coverage(gen_img, model1, model_layer_dict1, indiv_neuron_dict1, args.threshold)
+        update_coverage(gen_img, model2, model_layer_dict2, indiv_neuron_dict2, args.threshold)
+        update_coverage(gen_img, model3, model_layer_dict3, indiv_neuron_dict3, args.threshold)
 
-        print(bcolors.OKGREEN + 'covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
+        print(bcolors.OKGREEN + 'ORIGINAL covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
               % (len(model_layer_dict1), neuron_covered(model_layer_dict1)[2], len(model_layer_dict2),
                  neuron_covered(model_layer_dict2)[2], len(model_layer_dict3),
                  neuron_covered(model_layer_dict3)[2]) + bcolors.ENDC)
@@ -83,7 +83,17 @@ for _ in xrange(args.seeds):
             neuron_covered(model_layer_dict1)[1] + neuron_covered(model_layer_dict2)[1] +
             neuron_covered(model_layer_dict3)[
                 1])
-        print(bcolors.OKGREEN + 'averaged covered neurons %.3f' % averaged_nc + bcolors.ENDC)
+        print(bcolors.OKGREEN + 'CORRECTED covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
+              % (len(indiv_neuron_dict1), neuron_covered(indiv_neuron_dict1)[2], len(indiv_neuron_dict2),
+                 neuron_covered(indiv_neuron_dict2)[2], len(indiv_neuron_dict3),
+                 neuron_covered(indiv_neuron_dict3)[2]) + bcolors.ENDC)
+        averaged_nc_corrected = (neuron_covered(indiv_neuron_dict1)[0] + neuron_covered(indiv_neuron_dict2)[0] +
+                       neuron_covered(indiv_neuron_dict3)[0]) / float(
+            neuron_covered(indiv_neuron_dict1)[1] + neuron_covered(indiv_neuron_dict2)[1] +
+            neuron_covered(indiv_neuron_dict3)[
+                1])
+        print(bcolors.OKGREEN + 'ORIGINAL averaged covered neurons %.3f' % averaged_nc + bcolors.ENDC)
+        print(bcolors.OKGREEN + 'CORRECTED averaged covered neurons %.3f' % averaged_nc_corrected + bcolors.ENDC)
 
         gen_img_deprocessed = deprocess_image(gen_img)
 
@@ -147,16 +157,28 @@ for _ in xrange(args.seeds):
             update_coverage(gen_img, model2, model_layer_dict2, args.threshold)
             update_coverage(gen_img, model3, model_layer_dict3, args.threshold)
 
-            print(bcolors.OKGREEN + 'covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
-                  % (len(model_layer_dict1), neuron_covered(model_layer_dict1)[2], len(model_layer_dict2),
-                     neuron_covered(model_layer_dict2)[2], len(model_layer_dict3),
-                     neuron_covered(model_layer_dict3)[2]) + bcolors.ENDC)
+            print(
+                bcolors.OKGREEN + 'ORIGINAL covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
+                % (len(model_layer_dict1), neuron_covered(model_layer_dict1)[2], len(model_layer_dict2),
+                   neuron_covered(model_layer_dict2)[2], len(model_layer_dict3),
+                   neuron_covered(model_layer_dict3)[2]) + bcolors.ENDC)
             averaged_nc = (neuron_covered(model_layer_dict1)[0] + neuron_covered(model_layer_dict2)[0] +
                            neuron_covered(model_layer_dict3)[0]) / float(
                 neuron_covered(model_layer_dict1)[1] + neuron_covered(model_layer_dict2)[1] +
                 neuron_covered(model_layer_dict3)[
                     1])
-            print(bcolors.OKGREEN + 'averaged covered neurons %.3f' % averaged_nc + bcolors.ENDC)
+            print(
+                bcolors.OKGREEN + 'CORRECTED covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
+                % (len(indiv_neuron_dict1), neuron_covered(indiv_neuron_dict1)[2], len(indiv_neuron_dict2),
+                   neuron_covered(indiv_neuron_dict2)[2], len(indiv_neuron_dict3),
+                   neuron_covered(indiv_neuron_dict3)[2]) + bcolors.ENDC)
+            averaged_nc_corrected = (neuron_covered(indiv_neuron_dict1)[0] + neuron_covered(indiv_neuron_dict2)[0] +
+                                     neuron_covered(indiv_neuron_dict3)[0]) / float(
+                neuron_covered(indiv_neuron_dict1)[1] + neuron_covered(indiv_neuron_dict2)[1] +
+                neuron_covered(indiv_neuron_dict3)[
+                    1])
+            print(bcolors.OKGREEN + 'ORIGINAL averaged covered neurons %.3f' % averaged_nc + bcolors.ENDC)
+            print(bcolors.OKGREEN + 'CORRECTED averaged covered neurons %.3f' % averaged_nc_corrected + bcolors.ENDC)
 
             gen_img_deprocessed = deprocess_image(gen_img)
             orig_img_deprocessed = deprocess_image(orig_img)
