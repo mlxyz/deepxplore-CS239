@@ -153,9 +153,9 @@ for _ in xrange(args.seeds):
         predictions3 = np.argmax(model3.predict(gen_img)[0])
 
         if not predictions1 == predictions2 == predictions3:
-            update_coverage(gen_img, model1, model_layer_dict1, args.threshold)
-            update_coverage(gen_img, model2, model_layer_dict2, args.threshold)
-            update_coverage(gen_img, model3, model_layer_dict3, args.threshold)
+            update_coverage(gen_img, model1, model_layer_dict1, indiv_neuron_dict1, args.threshold)
+            update_coverage(gen_img, model2, model_layer_dict2, indiv_neuron_dict2, args.threshold)
+            update_coverage(gen_img, model3, model_layer_dict3, indiv_neuron_dict3, args.threshold)
 
             print(
                 bcolors.OKGREEN + 'ORIGINAL covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'

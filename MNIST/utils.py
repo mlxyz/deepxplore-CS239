@@ -97,8 +97,9 @@ def update_coverage(input_data, model, model_layer_dict, indiv_neuron_dict, thre
             if np.mean(scaled[..., num_neuron]) > threshold and not model_layer_dict[(layer_names[i], num_neuron)]:
                 model_layer_dict[(layer_names[i], num_neuron)] = True
 
-        for neuron in xrange(num_neurons(scaled.shape)):
-            if scaled[np.unravel_index(neuron, scaled.shape)] > threshold and not indiv_neuron_dict[(layer_names[i], neuron)]:
+        for neuron in range(num_neurons(scaled.shape)):
+            neuron_value = scaled[np.unravel_index(neuron, scaled.shape)]
+            if (neuron_value > threshold) and not indiv_neuron_dict[(layer_names[i], neuron)]:
                 indiv_neuron_dict[(layer_names[i], neuron)] = True
 
 def full_coverage(model_layer_dict):
