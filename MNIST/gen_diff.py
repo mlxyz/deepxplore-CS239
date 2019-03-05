@@ -59,7 +59,20 @@ model_layer_dict1, indiv_neuron_dict1, model_layer_dict2, indiv_neuron_dict2, mo
 
 # ==============================================================================================
 # start gen inputs
-for _ in xrange(args.seeds):
+iteration_stats = {}
+iteration_stats['iter'] = 0
+iteration_stats['num_generated'] = 0
+iteration_stats['nc_original_avg'] = 0
+iteration_stats['nc_corrected_avg'] = 0
+
+for seed_iter in xrange(args.seeds):
+    #if((seed_iter+1) % 10):
+    if(seed_iter > 0):
+        # plus one last print at the very end.
+        print("Stats for iteration {iter}: diffs_found = {num_generated}, original nc = {nc_original_avg}, corrected nc = {nc_corrected_avg}".format(**iteration_stats))
+    iteration_stats['iter'] = seed_iter + 1
+    print("Starting iteration " + str(seed_iter + 1))
+
     gen_img = np.expand_dims(random.choice(x_test), axis=0)
     orig_img = gen_img.copy()
     # first check if input already induces differences
@@ -100,6 +113,11 @@ for _ in xrange(args.seeds):
         # save the result to disk
         imsave(GEN_INPUTS_DIR + 'already_differ_' + str(label1) + '_' + str(
             label2) + '_' + str(label3) + '.png', gen_img_deprocessed)
+
+        # global_stats['num_generated'] += 0 # nothing new generated here.
+        iteration_stats['nc_original_avg'] = averaged_nc
+        iteration_stats['nc_corrected_avg'] = averaged_nc_corrected
+
         continue
 
     # if all label agrees
@@ -157,6 +175,7 @@ for _ in xrange(args.seeds):
             update_coverage(gen_img, model2, model_layer_dict2, indiv_neuron_dict2, args.threshold)
             update_coverage(gen_img, model3, model_layer_dict3, indiv_neuron_dict3, args.threshold)
 
+            print("Found output which causes difference in models' predictions: %s vs %s vs %s" % (predictions1, predictions2, predictions3))
             print(
                 bcolors.OKGREEN + 'ORIGINAL covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
                 % (len(model_layer_dict1), neuron_covered(model_layer_dict1)[2], len(model_layer_dict2),
@@ -190,4 +209,10 @@ for _ in xrange(args.seeds):
             imsave(GEN_INPUTS_DIR + args.transformation + '_' + str(predictions1) + '_' + str(
                 predictions2) + '_' + str(predictions3) + '_orig.png',
                    orig_img_deprocessed)
+
+            iteration_stats['num_generated'] += 1
+            iteration_stats['nc_original_avg'] = averaged_nc
+            iteration_stats['nc_corrected_avg'] = averaged_nc_corrected
             break
+
+print("Stats for iteration {iter}: diffs_found = {num_generated}, original nc = {nc_original_avg}, corrected nc = {nc_corrected_avg}".format(**iteration_stats))
