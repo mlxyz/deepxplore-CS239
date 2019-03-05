@@ -43,12 +43,24 @@ model1 = Dave_orig(input_tensor=input_tensor, load_weights=True)
 model2 = Dave_norminit(input_tensor=input_tensor, load_weights=True)
 model3 = Dave_dropout(input_tensor=input_tensor, load_weights=True)
 # init coverage table
-model_layer_dict1, model_layer_dict2, model_layer_dict3 = init_coverage_tables(model1, model2, model3)
+model_layer_dict1, indiv_neuron_dict1, model_layer_dict2, indiv_neuron_dict2, model_layer_dict3, indiv_neuron_dict3 = init_coverage_tables(model1, model2, model3)
 
 # ==============================================================================================
 # start gen inputs
+iteration_stats = {}
+iteration_stats['iter'] = 0
+iteration_stats['num_generated'] = 0
+iteration_stats['nc_original_avg'] = 0
+iteration_stats['nc_corrected_avg'] = 0
+
 img_paths = image.list_pictures('./testing/center', ext='jpg')
-for _ in xrange(args.seeds):
+for seed_iter in xrange(args.seeds):
+    if(seed_iter > 0):
+        # plus one last print at the very end.
+        print("Stats for iteration {iter}: diffs_found = {num_generated}, original nc = {nc_original_avg}, corrected nc = {nc_corrected_avg}".format(**iteration_stats))
+    iteration_stats['iter'] = seed_iter + 1
+    print("Starting iteration " + str(seed_iter + 1))
+
     gen_img = preprocess_image(random.choice(img_paths))
     orig_img = gen_img.copy()
     # first check if input already induces differences
@@ -57,11 +69,11 @@ for _ in xrange(args.seeds):
         print(bcolors.OKGREEN + 'input already causes different outputs: {}, {}, {}'.format(angle1, angle2,
                                                                                             angle3) + bcolors.ENDC)
 
-        update_coverage(gen_img, model1, model_layer_dict1, args.threshold)
-        update_coverage(gen_img, model2, model_layer_dict2, args.threshold)
-        update_coverage(gen_img, model3, model_layer_dict3, args.threshold)
+        update_coverage(gen_img, model1, model_layer_dict1, indiv_neuron_dict1, args.threshold)
+        update_coverage(gen_img, model2, model_layer_dict2, indiv_neuron_dict2, args.threshold)
+        update_coverage(gen_img, model3, model_layer_dict3, indiv_neuron_dict3, args.threshold)
 
-        print(bcolors.OKGREEN + 'covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
+        print(bcolors.OKGREEN + 'ORIGINAL covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
               % (len(model_layer_dict1), neuron_covered(model_layer_dict1)[2], len(model_layer_dict2),
                  neuron_covered(model_layer_dict2)[2], len(model_layer_dict3),
                  neuron_covered(model_layer_dict3)[2]) + bcolors.ENDC)
@@ -70,13 +82,28 @@ for _ in xrange(args.seeds):
             neuron_covered(model_layer_dict1)[1] + neuron_covered(model_layer_dict2)[1] +
             neuron_covered(model_layer_dict3)[
                 1])
-        print(bcolors.OKGREEN + 'averaged covered neurons %.3f' % averaged_nc + bcolors.ENDC)
+        print(bcolors.OKGREEN + 'CORRECTED covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
+              % (len(indiv_neuron_dict1), neuron_covered(indiv_neuron_dict1)[2], len(indiv_neuron_dict2),
+                 neuron_covered(indiv_neuron_dict2)[2], len(indiv_neuron_dict3),
+                 neuron_covered(indiv_neuron_dict3)[2]) + bcolors.ENDC)
+        averaged_nc_corrected = (neuron_covered(indiv_neuron_dict1)[0] + neuron_covered(indiv_neuron_dict2)[0] +
+                                 neuron_covered(indiv_neuron_dict3)[0]) / float(
+            neuron_covered(indiv_neuron_dict1)[1] + neuron_covered(indiv_neuron_dict2)[1] +
+            neuron_covered(indiv_neuron_dict3)[
+                1])
+        print(bcolors.OKGREEN + 'ORIGINAL averaged covered neurons %.3f' % averaged_nc + bcolors.ENDC)
+        print(bcolors.OKGREEN + 'CORRECTED averaged covered neurons %.3f' % averaged_nc_corrected + bcolors.ENDC)
 
         gen_img_deprocessed = draw_arrow(deprocess_image(gen_img), angle1, angle2, angle3)
 
         # save the result to disk
         imsave(GEN_INPUTS_DIR + 'already_differ_' + str(angle1) + '_' + str(angle2) + '_' + str(angle3) + '.png',
                gen_img_deprocessed)
+
+        # global_stats['num_generated'] += 0 # nothing new generated here.
+        iteration_stats['nc_original_avg'] = averaged_nc
+        iteration_stats['nc_corrected_avg'] = averaged_nc_corrected
+
         continue
 
     # if all turning angles roughly the same
@@ -128,20 +155,34 @@ for _ in xrange(args.seeds):
         angle1, angle2, angle3 = model1.predict(gen_img)[0], model2.predict(gen_img)[0], model3.predict(gen_img)[0]
 
         if angle_diverged(angle1, angle2, angle3):
-            update_coverage(gen_img, model1, model_layer_dict1, args.threshold)
-            update_coverage(gen_img, model2, model_layer_dict2, args.threshold)
-            update_coverage(gen_img, model3, model_layer_dict3, args.threshold)
+            update_coverage(gen_img, model1, model_layer_dict1, indiv_neuron_dict1, args.threshold)
+            update_coverage(gen_img, model2, model_layer_dict2, indiv_neuron_dict2, args.threshold)
+            update_coverage(gen_img, model3, model_layer_dict3, indiv_neuron_dict3, args.threshold)
 
-            print(bcolors.OKGREEN + 'covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
-                  % (len(model_layer_dict1), neuron_covered(model_layer_dict1)[2], len(model_layer_dict2),
-                     neuron_covered(model_layer_dict2)[2], len(model_layer_dict3),
-                     neuron_covered(model_layer_dict3)[2]) + bcolors.ENDC)
+            print("Found output which causes difference in models' predictions: %s vs %s vs %s" % (
+            angle1, angle2, angle3))
+            print(
+                bcolors.OKGREEN + 'ORIGINAL covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
+                % (len(model_layer_dict1), neuron_covered(model_layer_dict1)[2], len(model_layer_dict2),
+                   neuron_covered(model_layer_dict2)[2], len(model_layer_dict3),
+                   neuron_covered(model_layer_dict3)[2]) + bcolors.ENDC)
             averaged_nc = (neuron_covered(model_layer_dict1)[0] + neuron_covered(model_layer_dict2)[0] +
                            neuron_covered(model_layer_dict3)[0]) / float(
                 neuron_covered(model_layer_dict1)[1] + neuron_covered(model_layer_dict2)[1] +
                 neuron_covered(model_layer_dict3)[
                     1])
-            print(bcolors.OKGREEN + 'averaged covered neurons %.3f' % averaged_nc + bcolors.ENDC)
+            print(
+                bcolors.OKGREEN + 'CORRECTED covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
+                % (len(indiv_neuron_dict1), neuron_covered(indiv_neuron_dict1)[2], len(indiv_neuron_dict2),
+                   neuron_covered(indiv_neuron_dict2)[2], len(indiv_neuron_dict3),
+                   neuron_covered(indiv_neuron_dict3)[2]) + bcolors.ENDC)
+            averaged_nc_corrected = (neuron_covered(indiv_neuron_dict1)[0] + neuron_covered(indiv_neuron_dict2)[0] +
+                                     neuron_covered(indiv_neuron_dict3)[0]) / float(
+                neuron_covered(indiv_neuron_dict1)[1] + neuron_covered(indiv_neuron_dict2)[1] +
+                neuron_covered(indiv_neuron_dict3)[
+                    1])
+            print(bcolors.OKGREEN + 'ORIGINAL averaged covered neurons %.3f' % averaged_nc + bcolors.ENDC)
+            print(bcolors.OKGREEN + 'CORRECTED averaged covered neurons %.3f' % averaged_nc_corrected + bcolors.ENDC)
 
             gen_img_deprocessed = draw_arrow(deprocess_image(gen_img), angle1, angle2, angle3)
             orig_img_deprocessed = draw_arrow(deprocess_image(orig_img), orig_angle1, orig_angle2, orig_angle3)
@@ -151,4 +192,10 @@ for _ in xrange(args.seeds):
                 angle3) + '.png', gen_img_deprocessed)
             imsave(GEN_INPUTS_DIR + args.transformation + '_' + str(angle1) + '_' + str(angle2) + '_' + str(
                 angle3) + '_orig.png', orig_img_deprocessed)
+
+            iteration_stats['num_generated'] += 1
+            iteration_stats['nc_original_avg'] = averaged_nc
+            iteration_stats['nc_corrected_avg'] = averaged_nc_corrected
             break
+
+print("Stats for iteration {iter}: diffs_found = {num_generated}, original nc = {nc_original_avg}, corrected nc = {nc_corrected_avg}".format(**iteration_stats))
