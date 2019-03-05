@@ -1,0 +1,1642 @@
+[92mModel compiled[0m
+[92mModel compiled[0m
+[92mModel compiled[0m
+Starting iteration 1
+Found output which causes difference in models' predictions: [-0.16919419] vs [-0.01020366] vs [0.04206366]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.394, 1562 neurons 0.501, 1446 neurons 0.212[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.417, 82670 neurons 0.541, 315542 neurons 0.427[0m
+[92mORIGINAL averaged covered neurons 0.373[0m
+[92mCORRECTED averaged covered neurons 0.445[0m
+Stats for iteration 1: diffs_found = 1, original nc = 0.373304157549, corrected nc = 0.444955311282
+Starting iteration 2
+Found output which causes difference in models' predictions: [-0.19530678] vs [-0.01020366] vs [0.04374466]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.592, 1562 neurons 0.569, 1446 neurons 0.302[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.590, 82670 neurons 0.703, 315542 neurons 0.571[0m
+[92mORIGINAL averaged covered neurons 0.492[0m
+[92mCORRECTED averaged covered neurons 0.597[0m
+Stats for iteration 2: diffs_found = 2, original nc = 0.492341356674, corrected nc = 0.597131936733
+Starting iteration 3
+Found output which causes difference in models' predictions: [0.22227944] vs [-0.01020366] vs [0.14279455]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.684, 1562 neurons 0.662, 1446 neurons 0.390[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.767, 82670 neurons 0.855, 315542 neurons 0.731[0m
+[92mORIGINAL averaged covered neurons 0.584[0m
+[92mCORRECTED averaged covered neurons 0.759[0m
+Stats for iteration 3: diffs_found = 3, original nc = 0.583588621444, corrected nc = 0.758541596483
+Starting iteration 4
+Stats for iteration 4: diffs_found = 3, original nc = 0.583588621444, corrected nc = 0.758541596483
+Starting iteration 5
+Stats for iteration 5: diffs_found = 3, original nc = 0.583588621444, corrected nc = 0.758541596483
+Starting iteration 6
+[92minput already causes different outputs: [0.24069372], [-0.01020366], [-0.03104569][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.748, 1562 neurons 0.693, 1446 neurons 0.487[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.831, 82670 neurons 0.891, 315542 neurons 0.769[0m
+[92mORIGINAL averaged covered neurons 0.647[0m
+[92mCORRECTED averaged covered neurons 0.801[0m
+Stats for iteration 6: diffs_found = 3, original nc = 0.646608315098, corrected nc = 0.800616367425
+Starting iteration 7
+Found output which causes difference in models' predictions: [-0.22342943] vs [-0.01020366] vs [0.00739209]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.784, 1562 neurons 0.722, 1446 neurons 0.523[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.864, 82670 neurons 0.909, 315542 neurons 0.790[0m
+[92mORIGINAL averaged covered neurons 0.680[0m
+[92mCORRECTED averaged covered neurons 0.823[0m
+Stats for iteration 7: diffs_found = 4, original nc = 0.680087527352, corrected nc = 0.822927454136
+Starting iteration 8
+[92minput already causes different outputs: [0.16545716], [-0.01020366], [-0.06354604][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.805, 1562 neurons 0.736, 1446 neurons 0.537[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.891, 82670 neurons 0.924, 315542 neurons 0.805[0m
+[92mORIGINAL averaged covered neurons 0.697[0m
+[92mCORRECTED averaged covered neurons 0.840[0m
+Stats for iteration 8: diffs_found = 4, original nc = 0.696717724289, corrected nc = 0.83993370515
+Starting iteration 9
+Found output which causes difference in models' predictions: [-0.41136095] vs [-0.01020366] vs [0.00286394]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.830, 1562 neurons 0.756, 1446 neurons 0.555[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.913, 82670 neurons 0.937, 315542 neurons 0.827[0m
+[92mORIGINAL averaged covered neurons 0.718[0m
+[92mCORRECTED averaged covered neurons 0.860[0m
+Stats for iteration 9: diffs_found = 5, original nc = 0.71772428884, corrected nc = 0.860464729393
+Starting iteration 10
+Stats for iteration 10: diffs_found = 5, original nc = 0.71772428884, corrected nc = 0.860464729393
+Starting iteration 11
+Stats for iteration 11: diffs_found = 5, original nc = 0.71772428884, corrected nc = 0.860464729393
+Starting iteration 12
+Stats for iteration 12: diffs_found = 5, original nc = 0.71772428884, corrected nc = 0.860464729393
+Starting iteration 13
+Stats for iteration 13: diffs_found = 5, original nc = 0.71772428884, corrected nc = 0.860464729393
+Starting iteration 14
+Found output which causes difference in models' predictions: [-0.2303797] vs [-0.01020366] vs [0.01062128]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.841, 1562 neurons 0.764, 1446 neurons 0.574[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.922, 82670 neurons 0.943, 315542 neurons 0.834[0m
+[92mORIGINAL averaged covered neurons 0.730[0m
+[92mCORRECTED averaged covered neurons 0.868[0m
+Stats for iteration 14: diffs_found = 6, original nc = 0.730196936543, corrected nc = 0.868129811471
+Starting iteration 15
+Found output which causes difference in models' predictions: [0.38621336] vs [-0.01020366] vs [0.02969869]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.875, 1562 neurons 0.767, 1446 neurons 0.607[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.931, 82670 neurons 0.947, 315542 neurons 0.841[0m
+[92mORIGINAL averaged covered neurons 0.753[0m
+[92mCORRECTED averaged covered neurons 0.875[0m
+Stats for iteration 15: diffs_found = 7, original nc = 0.753391684902, corrected nc = 0.874630366701
+Starting iteration 16
+Stats for iteration 16: diffs_found = 7, original nc = 0.753391684902, corrected nc = 0.874630366701
+Starting iteration 17
+Stats for iteration 17: diffs_found = 7, original nc = 0.753391684902, corrected nc = 0.874630366701
+Starting iteration 18
+[92minput already causes different outputs: [0.24198943], [-0.01020366], [0.15628028][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.886, 1562 neurons 0.773, 1446 neurons 0.618[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.941, 82670 neurons 0.952, 315542 neurons 0.847[0m
+[92mORIGINAL averaged covered neurons 0.763[0m
+[92mCORRECTED averaged covered neurons 0.881[0m
+Stats for iteration 18: diffs_found = 7, original nc = 0.762800875274, corrected nc = 0.880843949243
+Starting iteration 19
+[92minput already causes different outputs: [0.1395192], [-0.01020366], [-0.07377893][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.895, 1562 neurons 0.777, 1446 neurons 0.636[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.945, 82670 neurons 0.955, 315542 neurons 0.850[0m
+[92mORIGINAL averaged covered neurons 0.773[0m
+[92mCORRECTED averaged covered neurons 0.884[0m
+Stats for iteration 19: diffs_found = 7, original nc = 0.772866520788, corrected nc = 0.884439425888
+Starting iteration 20
+Found output which causes difference in models' predictions: [-0.146011] vs [-0.01020366] vs [0.14825971]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.908, 1562 neurons 0.782, 1446 neurons 0.647[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.951, 82670 neurons 0.958, 315542 neurons 0.857[0m
+[92mORIGINAL averaged covered neurons 0.782[0m
+[92mCORRECTED averaged covered neurons 0.890[0m
+Stats for iteration 20: diffs_found = 8, original nc = 0.78249452954, corrected nc = 0.890230867448
+Starting iteration 21
+[92minput already causes different outputs: [0.107186], [-0.01020366], [-0.38422456][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.919, 1562 neurons 0.785, 1446 neurons 0.667[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.953, 82670 neurons 0.959, 315542 neurons 0.860[0m
+[92mORIGINAL averaged covered neurons 0.793[0m
+[92mCORRECTED averaged covered neurons 0.893[0m
+Stats for iteration 21: diffs_found = 8, original nc = 0.793216630197, corrected nc = 0.893389646525
+Starting iteration 22
+Stats for iteration 22: diffs_found = 8, original nc = 0.793216630197, corrected nc = 0.893389646525
+Starting iteration 23
+Stats for iteration 23: diffs_found = 8, original nc = 0.793216630197, corrected nc = 0.893389646525
+Starting iteration 24
+Stats for iteration 24: diffs_found = 8, original nc = 0.793216630197, corrected nc = 0.893389646525
+Starting iteration 25
+Found output which causes difference in models' predictions: [0.17397815] vs [-0.01020366] vs [-0.02926715]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.926, 1562 neurons 0.787, 1446 neurons 0.669[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.956, 82670 neurons 0.961, 315542 neurons 0.863[0m
+[92mORIGINAL averaged covered neurons 0.797[0m
+[92mCORRECTED averaged covered neurons 0.896[0m
+Stats for iteration 25: diffs_found = 9, original nc = 0.79715536105, corrected nc = 0.895803960223
+Starting iteration 26
+Stats for iteration 26: diffs_found = 9, original nc = 0.79715536105, corrected nc = 0.895803960223
+Starting iteration 27
+Stats for iteration 27: diffs_found = 9, original nc = 0.79715536105, corrected nc = 0.895803960223
+Starting iteration 28
+[92minput already causes different outputs: [0.21813262], [-0.01020366], [-0.07088211][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.931, 1562 neurons 0.787, 1446 neurons 0.701[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.958, 82670 neurons 0.962, 315542 neurons 0.865[0m
+[92mORIGINAL averaged covered neurons 0.809[0m
+[92mCORRECTED averaged covered neurons 0.897[0m
+Stats for iteration 28: diffs_found = 9, original nc = 0.809190371991, corrected nc = 0.897419741225
+Starting iteration 29
+Stats for iteration 29: diffs_found = 9, original nc = 0.809190371991, corrected nc = 0.897419741225
+Starting iteration 30
+Found output which causes difference in models' predictions: [-0.34590298] vs [-0.01020366] vs [0.07117345]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.936, 1562 neurons 0.793, 1446 neurons 0.712[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.961, 82670 neurons 0.963, 315542 neurons 0.869[0m
+[92mORIGINAL averaged covered neurons 0.816[0m
+[92mCORRECTED averaged covered neurons 0.901[0m
+Stats for iteration 30: diffs_found = 10, original nc = 0.816192560175, corrected nc = 0.900979866163
+Starting iteration 31
+Stats for iteration 31: diffs_found = 10, original nc = 0.816192560175, corrected nc = 0.900979866163
+Starting iteration 32
+Stats for iteration 32: diffs_found = 10, original nc = 0.816192560175, corrected nc = 0.900979866163
+Starting iteration 33
+Stats for iteration 33: diffs_found = 10, original nc = 0.816192560175, corrected nc = 0.900979866163
+Starting iteration 34
+[92minput already causes different outputs: [0.22439079], [-0.01020366], [0.08172788][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.938, 1562 neurons 0.798, 1446 neurons 0.715[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.963, 82670 neurons 0.965, 315542 neurons 0.872[0m
+[92mORIGINAL averaged covered neurons 0.820[0m
+[92mCORRECTED averaged covered neurons 0.903[0m
+Stats for iteration 34: diffs_found = 10, original nc = 0.819693654267, corrected nc = 0.903360907665
+Starting iteration 35
+[92minput already causes different outputs: [-0.2864811], [-0.01020366], [0.02670471][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.941, 1562 neurons 0.802, 1446 neurons 0.719[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.965, 82670 neurons 0.967, 315542 neurons 0.873[0m
+[92mORIGINAL averaged covered neurons 0.823[0m
+[92mCORRECTED averaged covered neurons 0.905[0m
+Stats for iteration 35: diffs_found = 10, original nc = 0.82341356674, corrected nc = 0.905009960864
+Starting iteration 36
+[92minput already causes different outputs: [0.30146927], [-0.01020366], [0.18264088][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.944, 1562 neurons 0.803, 1446 neurons 0.728[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.966, 82670 neurons 0.968, 315542 neurons 0.875[0m
+[92mORIGINAL averaged covered neurons 0.827[0m
+[92mCORRECTED averaged covered neurons 0.906[0m
+Stats for iteration 36: diffs_found = 10, original nc = 0.827352297593, corrected nc = 0.906392836496
+Starting iteration 37
+Stats for iteration 37: diffs_found = 10, original nc = 0.827352297593, corrected nc = 0.906392836496
+Starting iteration 38
+Found output which causes difference in models' predictions: [0.21971084] vs [-0.01020366] vs [0.02346603]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.946, 1562 neurons 0.805, 1446 neurons 0.728[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.968, 82670 neurons 0.969, 315542 neurons 0.877[0m
+[92mORIGINAL averaged covered neurons 0.829[0m
+[92mCORRECTED averaged covered neurons 0.908[0m
+Stats for iteration 38: diffs_found = 11, original nc = 0.828884026258, corrected nc = 0.908299749211
+Starting iteration 39
+[92minput already causes different outputs: [0.21688324], [-0.01020366], [-0.03438853][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.948, 1562 neurons 0.805, 1446 neurons 0.734[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.969, 82670 neurons 0.969, 315542 neurons 0.878[0m
+[92mORIGINAL averaged covered neurons 0.832[0m
+[92mCORRECTED averaged covered neurons 0.909[0m
+Stats for iteration 39: diffs_found = 11, original nc = 0.831509846827, corrected nc = 0.909235529714
+Starting iteration 40
+Stats for iteration 40: diffs_found = 11, original nc = 0.831509846827, corrected nc = 0.909235529714
+Starting iteration 41
+Stats for iteration 41: diffs_found = 11, original nc = 0.831509846827, corrected nc = 0.909235529714
+Starting iteration 42
+[92minput already causes different outputs: [0.22465566], [-0.01020366], [-0.00106414][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.948, 1562 neurons 0.807, 1446 neurons 0.737[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.970, 82670 neurons 0.971, 315542 neurons 0.879[0m
+[92mORIGINAL averaged covered neurons 0.833[0m
+[92mCORRECTED averaged covered neurons 0.910[0m
+Stats for iteration 42: diffs_found = 11, original nc = 0.832822757112, corrected nc = 0.910476998515
+Starting iteration 43
+Found output which causes difference in models' predictions: [-0.29221362] vs [-0.01020366] vs [0.0329676]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.949, 1562 neurons 0.811, 1446 neurons 0.748[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.971, 82670 neurons 0.972, 315542 neurons 0.881[0m
+[92mORIGINAL averaged covered neurons 0.838[0m
+[92mCORRECTED averaged covered neurons 0.912[0m
+Stats for iteration 43: diffs_found = 12, original nc = 0.83829321663, corrected nc = 0.912277856106
+Starting iteration 44
+[92minput already causes different outputs: [0.22582074], [-0.01020366], [-0.01838339][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.951, 1562 neurons 0.812, 1446 neurons 0.749[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.973, 82670 neurons 0.973, 315542 neurons 0.882[0m
+[92mORIGINAL averaged covered neurons 0.839[0m
+[92mCORRECTED averaged covered neurons 0.913[0m
+Stats for iteration 44: diffs_found = 12, original nc = 0.839387308534, corrected nc = 0.913417428808
+Starting iteration 45
+Stats for iteration 45: diffs_found = 12, original nc = 0.839387308534, corrected nc = 0.913417428808
+Starting iteration 46
+[92minput already causes different outputs: [0.24320124], [-0.01020366], [0.08767757][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.951, 1562 neurons 0.812, 1446 neurons 0.759[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.974, 82670 neurons 0.974, 315542 neurons 0.883[0m
+[92mORIGINAL averaged covered neurons 0.843[0m
+[92mCORRECTED averaged covered neurons 0.914[0m
+Stats for iteration 46: diffs_found = 12, original nc = 0.842669584245, corrected nc = 0.91428666492
+Starting iteration 47
+[92minput already causes different outputs: [0.20415184], [-0.01020366], [0.35811245][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.951, 1562 neurons 0.813, 1446 neurons 0.772[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.976, 82670 neurons 0.975, 315542 neurons 0.885[0m
+[92mORIGINAL averaged covered neurons 0.847[0m
+[92mCORRECTED averaged covered neurons 0.916[0m
+Stats for iteration 47: diffs_found = 12, original nc = 0.847483588621, corrected nc = 0.916041773242
+Starting iteration 48
+Stats for iteration 48: diffs_found = 12, original nc = 0.847483588621, corrected nc = 0.916041773242
+Starting iteration 49
+[92minput already causes different outputs: [-0.22696656], [-0.01020366], [0.02515802][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.953, 1562 neurons 0.814, 1446 neurons 0.772[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.976, 82670 neurons 0.975, 315542 neurons 0.885[0m
+[92mORIGINAL averaged covered neurons 0.848[0m
+[92mCORRECTED averaged covered neurons 0.916[0m
+Stats for iteration 49: diffs_found = 12, original nc = 0.848358862144, corrected nc = 0.916472232273
+Starting iteration 50
+Stats for iteration 50: diffs_found = 12, original nc = 0.848358862144, corrected nc = 0.916472232273
+Starting iteration 51
+Stats for iteration 51: diffs_found = 12, original nc = 0.848358862144, corrected nc = 0.916472232273
+Starting iteration 52
+[92minput already causes different outputs: [0.23811476], [-0.01020366], [0.01145479][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.955, 1562 neurons 0.814, 1446 neurons 0.774[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.977, 82670 neurons 0.976, 315542 neurons 0.886[0m
+[92mORIGINAL averaged covered neurons 0.849[0m
+[92mCORRECTED averaged covered neurons 0.917[0m
+Stats for iteration 52: diffs_found = 12, original nc = 0.849452954048, corrected nc = 0.917114801552
+Starting iteration 53
+Found output which causes difference in models' predictions: [0.1250464] vs [-0.01020366] vs [-0.23786716]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.956, 1562 neurons 0.815, 1446 neurons 0.777[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.977, 82670 neurons 0.977, 315542 neurons 0.887[0m
+[92mORIGINAL averaged covered neurons 0.851[0m
+[92mCORRECTED averaged covered neurons 0.918[0m
+Stats for iteration 53: diffs_found = 13, original nc = 0.850984682713, corrected nc = 0.918046423031
+Starting iteration 54
+Found output which causes difference in models' predictions: [-0.00381837] vs [-0.01020366] vs [0.1933281]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.958, 1562 neurons 0.815, 1446 neurons 0.778[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.978, 82670 neurons 0.977, 315542 neurons 0.888[0m
+[92mORIGINAL averaged covered neurons 0.852[0m
+[92mCORRECTED averaged covered neurons 0.919[0m
+Stats for iteration 54: diffs_found = 14, original nc = 0.852078774617, corrected nc = 0.918612050357
+Starting iteration 55
+Stats for iteration 55: diffs_found = 14, original nc = 0.852078774617, corrected nc = 0.918612050357
+Starting iteration 56
+Stats for iteration 56: diffs_found = 14, original nc = 0.852078774617, corrected nc = 0.918612050357
+Starting iteration 57
+Stats for iteration 57: diffs_found = 14, original nc = 0.852078774617, corrected nc = 0.918612050357
+Starting iteration 58
+Stats for iteration 58: diffs_found = 14, original nc = 0.852078774617, corrected nc = 0.918612050357
+Starting iteration 59
+Stats for iteration 59: diffs_found = 14, original nc = 0.852078774617, corrected nc = 0.918612050357
+Starting iteration 60
+Stats for iteration 60: diffs_found = 14, original nc = 0.852078774617, corrected nc = 0.918612050357
+Starting iteration 61
+[92minput already causes different outputs: [0.32691437], [-0.01020366], [0.02358962][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.958, 1562 neurons 0.815, 1446 neurons 0.779[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.978, 82670 neurons 0.977, 315542 neurons 0.888[0m
+[92mORIGINAL averaged covered neurons 0.853[0m
+[92mCORRECTED averaged covered neurons 0.919[0m
+Stats for iteration 61: diffs_found = 14, original nc = 0.852516411379, corrected nc = 0.919146485
+Starting iteration 62
+Stats for iteration 62: diffs_found = 14, original nc = 0.852516411379, corrected nc = 0.919146485
+Starting iteration 63
+[92minput already causes different outputs: [0.17582588], [-0.01020366], [0.22522715][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.958, 1562 neurons 0.816, 1446 neurons 0.779[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.979, 82670 neurons 0.978, 315542 neurons 0.889[0m
+[92mORIGINAL averaged covered neurons 0.853[0m
+[92mCORRECTED averaged covered neurons 0.920[0m
+Stats for iteration 63: diffs_found = 14, original nc = 0.852735229759, corrected nc = 0.919951256233
+Starting iteration 64
+Found output which causes difference in models' predictions: [-0.30756372] vs [-0.01020366] vs [0.0194179]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.958, 1562 neurons 0.817, 1446 neurons 0.779[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.979, 82670 neurons 0.978, 315542 neurons 0.890[0m
+[92mORIGINAL averaged covered neurons 0.853[0m
+[92mCORRECTED averaged covered neurons 0.921[0m
+Stats for iteration 64: diffs_found = 15, original nc = 0.853391684902, corrected nc = 0.920537678682
+Starting iteration 65
+Stats for iteration 65: diffs_found = 15, original nc = 0.853391684902, corrected nc = 0.920537678682
+Starting iteration 66
+Stats for iteration 66: diffs_found = 15, original nc = 0.853391684902, corrected nc = 0.920537678682
+Starting iteration 67
+Stats for iteration 67: diffs_found = 15, original nc = 0.853391684902, corrected nc = 0.920537678682
+Starting iteration 68
+Found output which causes difference in models' predictions: [-0.30597907] vs [-0.01020366] vs [0.01843172]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.959, 1562 neurons 0.818, 1446 neurons 0.795[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.980, 82670 neurons 0.978, 315542 neurons 0.890[0m
+[92mORIGINAL averaged covered neurons 0.859[0m
+[92mCORRECTED averaged covered neurons 0.921[0m
+Stats for iteration 68: diffs_found = 16, original nc = 0.858643326039, corrected nc = 0.920911990883
+Starting iteration 69
+[92minput already causes different outputs: [0.30015883], [-0.01020366], [0.18739524][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.959, 1562 neurons 0.819, 1446 neurons 0.795[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.980, 82670 neurons 0.979, 315542 neurons 0.891[0m
+[92mORIGINAL averaged covered neurons 0.859[0m
+[92mCORRECTED averaged covered neurons 0.921[0m
+Stats for iteration 69: diffs_found = 16, original nc = 0.859080962801, corrected nc = 0.921344529427
+Starting iteration 70
+Stats for iteration 70: diffs_found = 16, original nc = 0.859080962801, corrected nc = 0.921344529427
+Starting iteration 71
+Found output which causes difference in models' predictions: [0.00772055] vs [-0.01020366] vs [0.20088474]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.960, 1562 neurons 0.824, 1446 neurons 0.802[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.981, 82670 neurons 0.979, 315542 neurons 0.893[0m
+[92mORIGINAL averaged covered neurons 0.863[0m
+[92mCORRECTED averaged covered neurons 0.923[0m
+Stats for iteration 71: diffs_found = 17, original nc = 0.863457330416, corrected nc = 0.923022695796
+Starting iteration 72
+Stats for iteration 72: diffs_found = 17, original nc = 0.863457330416, corrected nc = 0.923022695796
+Starting iteration 73
+Stats for iteration 73: diffs_found = 17, original nc = 0.863457330416, corrected nc = 0.923022695796
+Starting iteration 74
+Stats for iteration 74: diffs_found = 17, original nc = 0.863457330416, corrected nc = 0.923022695796
+Starting iteration 75
+Stats for iteration 75: diffs_found = 17, original nc = 0.863457330416, corrected nc = 0.923022695796
+Starting iteration 76
+Stats for iteration 76: diffs_found = 17, original nc = 0.863457330416, corrected nc = 0.923022695796
+Starting iteration 77
+[92minput already causes different outputs: [0.1198774], [-0.01020366], [-0.20181142][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.964, 1562 neurons 0.824, 1446 neurons 0.812[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.982, 82670 neurons 0.980, 315542 neurons 0.894[0m
+[92mORIGINAL averaged covered neurons 0.868[0m
+[92mCORRECTED averaged covered neurons 0.924[0m
+Stats for iteration 77: diffs_found = 17, original nc = 0.867833698031, corrected nc = 0.92412691679
+Starting iteration 78
+[92minput already causes different outputs: [0.2605463], [-0.01020366], [0.05997583][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.964, 1562 neurons 0.825, 1446 neurons 0.813[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.983, 82670 neurons 0.981, 315542 neurons 0.895[0m
+[92mORIGINAL averaged covered neurons 0.868[0m
+[92mCORRECTED averaged covered neurons 0.925[0m
+Stats for iteration 78: diffs_found = 17, original nc = 0.868490153173, corrected nc = 0.924621840701
+Starting iteration 79
+Stats for iteration 79: diffs_found = 17, original nc = 0.868490153173, corrected nc = 0.924621840701
+Starting iteration 80
+[92minput already causes different outputs: [0.47111985], [-0.01020366], [0.23317893][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.964, 1562 neurons 0.825, 1446 neurons 0.815[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.983, 82670 neurons 0.981, 315542 neurons 0.895[0m
+[92mORIGINAL averaged covered neurons 0.869[0m
+[92mCORRECTED averaged covered neurons 0.925[0m
+Stats for iteration 80: diffs_found = 17, original nc = 0.868927789934, corrected nc = 0.92495664217
+Starting iteration 81
+Stats for iteration 81: diffs_found = 17, original nc = 0.868927789934, corrected nc = 0.92495664217
+Starting iteration 82
+Found output which causes difference in models' predictions: [-0.42946917] vs [-0.01020366] vs [0.02441949]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.965, 1562 neurons 0.825, 1446 neurons 0.819[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.983, 82670 neurons 0.981, 315542 neurons 0.896[0m
+[92mORIGINAL averaged covered neurons 0.871[0m
+[92mCORRECTED averaged covered neurons 0.925[0m
+Stats for iteration 82: diffs_found = 18, original nc = 0.87067833698, corrected nc = 0.925241535345
+Starting iteration 83
+Found output which causes difference in models' predictions: [-0.17005895] vs [-0.01020366] vs [0.15564416]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.967, 1562 neurons 0.828, 1446 neurons 0.820[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.984, 82670 neurons 0.981, 315542 neurons 0.897[0m
+[92mORIGINAL averaged covered neurons 0.873[0m
+[92mCORRECTED averaged covered neurons 0.927[0m
+Stats for iteration 83: diffs_found = 19, original nc = 0.873085339168, corrected nc = 0.926616092929
+Starting iteration 84
+Stats for iteration 84: diffs_found = 19, original nc = 0.873085339168, corrected nc = 0.926616092929
+Starting iteration 85
+Stats for iteration 85: diffs_found = 19, original nc = 0.873085339168, corrected nc = 0.926616092929
+Starting iteration 86
+[92minput already causes different outputs: [0.19253731], [-0.01020366], [0.08638213][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.967, 1562 neurons 0.828, 1446 neurons 0.820[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.984, 82670 neurons 0.981, 315542 neurons 0.898[0m
+[92mORIGINAL averaged covered neurons 0.873[0m
+[92mCORRECTED averaged covered neurons 0.927[0m
+Stats for iteration 86: diffs_found = 19, original nc = 0.873304157549, corrected nc = 0.927123493913
+Starting iteration 87
+Stats for iteration 87: diffs_found = 19, original nc = 0.873304157549, corrected nc = 0.927123493913
+Starting iteration 88
+Stats for iteration 88: diffs_found = 19, original nc = 0.873304157549, corrected nc = 0.927123493913
+Starting iteration 89
+Stats for iteration 89: diffs_found = 19, original nc = 0.873304157549, corrected nc = 0.927123493913
+Starting iteration 90
+Stats for iteration 90: diffs_found = 19, original nc = 0.873304157549, corrected nc = 0.927123493913
+Starting iteration 91
+Stats for iteration 91: diffs_found = 19, original nc = 0.873304157549, corrected nc = 0.927123493913
+Starting iteration 92
+[92minput already causes different outputs: [0.5455673], [-0.01020366], [0.15847279][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.967, 1562 neurons 0.829, 1446 neurons 0.828[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.984, 82670 neurons 0.982, 315542 neurons 0.898[0m
+[92mORIGINAL averaged covered neurons 0.876[0m
+[92mCORRECTED averaged covered neurons 0.927[0m
+Stats for iteration 92: diffs_found = 19, original nc = 0.876148796499, corrected nc = 0.927481170017
+Starting iteration 93
+Found output which causes difference in models' predictions: [-0.52341443] vs [-0.01020366] vs [0.0015424]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.967, 1562 neurons 0.832, 1446 neurons 0.828[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.985, 82670 neurons 0.982, 315542 neurons 0.899[0m
+[92mORIGINAL averaged covered neurons 0.877[0m
+[92mCORRECTED averaged covered neurons 0.928[0m
+Stats for iteration 93: diffs_found = 20, original nc = 0.877024070022, corrected nc = 0.928113341735
+Starting iteration 94
+Found output which causes difference in models' predictions: [-0.27229616] vs [-0.01020366] vs [0.01288593]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.967, 1562 neurons 0.832, 1446 neurons 0.828[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.985, 82670 neurons 0.983, 315542 neurons 0.899[0m
+[92mORIGINAL averaged covered neurons 0.877[0m
+[92mCORRECTED averaged covered neurons 0.928[0m
+Stats for iteration 94: diffs_found = 21, original nc = 0.877242888403, corrected nc = 0.928373280763
+Starting iteration 95
+Stats for iteration 95: diffs_found = 21, original nc = 0.877242888403, corrected nc = 0.928373280763
+Starting iteration 96
+[92minput already causes different outputs: [0.32691437], [-0.01020366], [0.02358962][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.967, 1562 neurons 0.832, 1446 neurons 0.828[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.985, 82670 neurons 0.983, 315542 neurons 0.899[0m
+[92mORIGINAL averaged covered neurons 0.877[0m
+[92mCORRECTED averaged covered neurons 0.928[0m
+Stats for iteration 96: diffs_found = 21, original nc = 0.877242888403, corrected nc = 0.928373280763
+Starting iteration 97
+Stats for iteration 97: diffs_found = 21, original nc = 0.877242888403, corrected nc = 0.928373280763
+Starting iteration 98
+[92minput already causes different outputs: [0.49070504], [-0.01020366], [0.16684662][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.967, 1562 neurons 0.834, 1446 neurons 0.828[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.985, 82670 neurons 0.983, 315542 neurons 0.900[0m
+[92mORIGINAL averaged covered neurons 0.878[0m
+[92mCORRECTED averaged covered neurons 0.929[0m
+Stats for iteration 98: diffs_found = 21, original nc = 0.877899343545, corrected nc = 0.928656094426
+Starting iteration 99
+Stats for iteration 99: diffs_found = 21, original nc = 0.877899343545, corrected nc = 0.928656094426
+Starting iteration 100
+Stats for iteration 100: diffs_found = 21, original nc = 0.877899343545, corrected nc = 0.928656094426
+Starting iteration 101
+Stats for iteration 101: diffs_found = 21, original nc = 0.877899343545, corrected nc = 0.928656094426
+Starting iteration 102
+Stats for iteration 102: diffs_found = 21, original nc = 0.877899343545, corrected nc = 0.928656094426
+Starting iteration 103
+Found output which causes difference in models' predictions: [-0.34560096] vs [-0.01020366] vs [0.01888171]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.967, 1562 neurons 0.837, 1446 neurons 0.828[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.985, 82670 neurons 0.983, 315542 neurons 0.900[0m
+[92mORIGINAL averaged covered neurons 0.879[0m
+[92mCORRECTED averaged covered neurons 0.929[0m
+Stats for iteration 103: diffs_found = 22, original nc = 0.878774617068, corrected nc = 0.928884840772
+Starting iteration 104
+Stats for iteration 104: diffs_found = 22, original nc = 0.878774617068, corrected nc = 0.928884840772
+Starting iteration 105
+Stats for iteration 105: diffs_found = 22, original nc = 0.878774617068, corrected nc = 0.928884840772
+Starting iteration 106
+Stats for iteration 106: diffs_found = 22, original nc = 0.878774617068, corrected nc = 0.928884840772
+Starting iteration 107
+[92minput already causes different outputs: [0.02070827], [-0.01020366], [-0.25976557][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.970, 1562 neurons 0.837, 1446 neurons 0.831[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.985, 82670 neurons 0.983, 315542 neurons 0.900[0m
+[92mORIGINAL averaged covered neurons 0.881[0m
+[92mCORRECTED averaged covered neurons 0.929[0m
+Stats for iteration 107: diffs_found = 22, original nc = 0.880525164114, corrected nc = 0.929292425169
+Starting iteration 108
+Found output which causes difference in models' predictions: [-0.44633216] vs [-0.01020366] vs [0.02969424]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.971, 1562 neurons 0.841, 1446 neurons 0.833[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.986, 82670 neurons 0.984, 315542 neurons 0.901[0m
+[92mORIGINAL averaged covered neurons 0.883[0m
+[92mCORRECTED averaged covered neurons 0.930[0m
+Stats for iteration 108: diffs_found = 23, original nc = 0.882713347921, corrected nc = 0.929695850541
+Starting iteration 109
+Stats for iteration 109: diffs_found = 23, original nc = 0.882713347921, corrected nc = 0.929695850541
+Starting iteration 110
+Stats for iteration 110: diffs_found = 23, original nc = 0.882713347921, corrected nc = 0.929695850541
+Starting iteration 111
+[92minput already causes different outputs: [0.21806447], [-0.01020366], [-0.04667067][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.972, 1562 neurons 0.841, 1446 neurons 0.835[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.986, 82670 neurons 0.984, 315542 neurons 0.901[0m
+[92mORIGINAL averaged covered neurons 0.884[0m
+[92mCORRECTED averaged covered neurons 0.930[0m
+Stats for iteration 111: diffs_found = 23, original nc = 0.883807439825, corrected nc = 0.930032731522
+Starting iteration 112
+Stats for iteration 112: diffs_found = 23, original nc = 0.883807439825, corrected nc = 0.930032731522
+Starting iteration 113
+[92minput already causes different outputs: [0.28805977], [-0.01020366], [0.4611585][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.972, 1562 neurons 0.841, 1446 neurons 0.840[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.986, 82670 neurons 0.984, 315542 neurons 0.902[0m
+[92mORIGINAL averaged covered neurons 0.885[0m
+[92mCORRECTED averaged covered neurons 0.931[0m
+Stats for iteration 113: diffs_found = 23, original nc = 0.885120350109, corrected nc = 0.930654505679
+Starting iteration 114
+Stats for iteration 114: diffs_found = 23, original nc = 0.885120350109, corrected nc = 0.930654505679
+Starting iteration 115
+Stats for iteration 115: diffs_found = 23, original nc = 0.885120350109, corrected nc = 0.930654505679
+Starting iteration 116
+Stats for iteration 116: diffs_found = 23, original nc = 0.885120350109, corrected nc = 0.930654505679
+Starting iteration 117
+Stats for iteration 117: diffs_found = 23, original nc = 0.885120350109, corrected nc = 0.930654505679
+Starting iteration 118
+Stats for iteration 118: diffs_found = 23, original nc = 0.885120350109, corrected nc = 0.930654505679
+Starting iteration 119
+Stats for iteration 119: diffs_found = 23, original nc = 0.885120350109, corrected nc = 0.930654505679
+Starting iteration 120
+Found output which causes difference in models' predictions: [0.125749] vs [-0.01020366] vs [-0.08027443]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.972, 1562 neurons 0.841, 1446 neurons 0.840[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.987, 82670 neurons 0.985, 315542 neurons 0.902[0m
+[92mORIGINAL averaged covered neurons 0.885[0m
+[92mCORRECTED averaged covered neurons 0.931[0m
+Stats for iteration 120: diffs_found = 24, original nc = 0.88533916849, corrected nc = 0.930987227636
+Starting iteration 121
+Stats for iteration 121: diffs_found = 24, original nc = 0.88533916849, corrected nc = 0.930987227636
+Starting iteration 122
+Stats for iteration 122: diffs_found = 24, original nc = 0.88533916849, corrected nc = 0.930987227636
+Starting iteration 123
+[92minput already causes different outputs: [0.3193599], [-0.01020366], [0.03028754][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.974, 1562 neurons 0.841, 1446 neurons 0.841[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.987, 82670 neurons 0.985, 315542 neurons 0.903[0m
+[92mORIGINAL averaged covered neurons 0.886[0m
+[92mCORRECTED averaged covered neurons 0.931[0m
+Stats for iteration 123: diffs_found = 24, original nc = 0.886214442013, corrected nc = 0.931234689591
+Starting iteration 124
+Stats for iteration 124: diffs_found = 24, original nc = 0.886214442013, corrected nc = 0.931234689591
+Starting iteration 125
+[92minput already causes different outputs: [0.22289804], [-0.01020366], [-0.05919231][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.974, 1562 neurons 0.841, 1446 neurons 0.846[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.987, 82670 neurons 0.985, 315542 neurons 0.903[0m
+[92mORIGINAL averaged covered neurons 0.888[0m
+[92mCORRECTED averaged covered neurons 0.932[0m
+Stats for iteration 125: diffs_found = 24, original nc = 0.88818380744, corrected nc = 0.931505026181
+Starting iteration 126
+[92minput already causes different outputs: [0.27752784], [-0.01020366], [0.26574618][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.974, 1562 neurons 0.841, 1446 neurons 0.848[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.987, 82670 neurons 0.985, 315542 neurons 0.903[0m
+[92mORIGINAL averaged covered neurons 0.889[0m
+[92mCORRECTED averaged covered neurons 0.932[0m
+Stats for iteration 126: diffs_found = 24, original nc = 0.888621444201, corrected nc = 0.931733772526
+Starting iteration 127
+Found output which causes difference in models' predictions: [0.08799762] vs [-0.01020366] vs [-0.356013]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.974, 1562 neurons 0.841, 1446 neurons 0.871[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.988, 82670 neurons 0.985, 315542 neurons 0.904[0m
+[92mORIGINAL averaged covered neurons 0.896[0m
+[92mCORRECTED averaged covered neurons 0.932[0m
+Stats for iteration 127: diffs_found = 25, original nc = 0.896280087527, corrected nc = 0.932266127657
+Starting iteration 128
+[92minput already causes different outputs: [0.1653386], [-0.01020366], [-0.06274501][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.974, 1562 neurons 0.841, 1446 neurons 0.873[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.988, 82670 neurons 0.986, 315542 neurons 0.904[0m
+[92mORIGINAL averaged covered neurons 0.897[0m
+[92mCORRECTED averaged covered neurons 0.932[0m
+Stats for iteration 128: diffs_found = 25, original nc = 0.896717724289, corrected nc = 0.93245536327
+Starting iteration 129
+Found output which causes difference in models' predictions: [-0.21881935] vs [-0.01020366] vs [0.01783696]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.976, 1562 neurons 0.841, 1446 neurons 0.877[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.988, 82670 neurons 0.986, 315542 neurons 0.905[0m
+[92mORIGINAL averaged covered neurons 0.899[0m
+[92mCORRECTED averaged covered neurons 0.933[0m
+Stats for iteration 129: diffs_found = 26, original nc = 0.898687089716, corrected nc = 0.933023070109
+Starting iteration 130
+[92minput already causes different outputs: [0.2850647], [-0.01020366], [0.04833133][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.977, 1562 neurons 0.841, 1446 neurons 0.877[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.988, 82670 neurons 0.986, 315542 neurons 0.905[0m
+[92mORIGINAL averaged covered neurons 0.899[0m
+[92mCORRECTED averaged covered neurons 0.933[0m
+Stats for iteration 130: diffs_found = 26, original nc = 0.898905908096, corrected nc = 0.933280929625
+Starting iteration 131
+[92minput already causes different outputs: [0.17581524], [-0.01020366], [0.39083806][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.977, 1562 neurons 0.842, 1446 neurons 0.877[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.988, 82670 neurons 0.986, 315542 neurons 0.905[0m
+[92mORIGINAL averaged covered neurons 0.899[0m
+[92mCORRECTED averaged covered neurons 0.933[0m
+Stats for iteration 131: diffs_found = 26, original nc = 0.899124726477, corrected nc = 0.933411938896
+Starting iteration 132
+Found output which causes difference in models' predictions: [-0.34674954] vs [-0.01020366] vs [0.01100046]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.979, 1562 neurons 0.842, 1446 neurons 0.880[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.989, 82670 neurons 0.986, 315542 neurons 0.906[0m
+[92mORIGINAL averaged covered neurons 0.901[0m
+[92mCORRECTED averaged covered neurons 0.934[0m
+Stats for iteration 132: diffs_found = 27, original nc = 0.900656455142, corrected nc = 0.933796648658
+Starting iteration 133
+[92minput already causes different outputs: [0.21350835], [-0.01020366], [0.16011952][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.979, 1562 neurons 0.842, 1446 neurons 0.880[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.989, 82670 neurons 0.986, 315542 neurons 0.906[0m
+[92mORIGINAL averaged covered neurons 0.901[0m
+[92mCORRECTED averaged covered neurons 0.934[0m
+Stats for iteration 133: diffs_found = 27, original nc = 0.900656455142, corrected nc = 0.933923498904
+Starting iteration 134
+Stats for iteration 134: diffs_found = 27, original nc = 0.900656455142, corrected nc = 0.933923498904
+Starting iteration 135
+Stats for iteration 135: diffs_found = 27, original nc = 0.900656455142, corrected nc = 0.933923498904
+Starting iteration 136
+Stats for iteration 136: diffs_found = 27, original nc = 0.900656455142, corrected nc = 0.933923498904
+Starting iteration 137
+Stats for iteration 137: diffs_found = 27, original nc = 0.900656455142, corrected nc = 0.933923498904
+Starting iteration 138
+Stats for iteration 138: diffs_found = 27, original nc = 0.900656455142, corrected nc = 0.933923498904
+Starting iteration 139
+Stats for iteration 139: diffs_found = 27, original nc = 0.900656455142, corrected nc = 0.933923498904
+Starting iteration 140
+[92minput already causes different outputs: [0.19993657], [-0.01020366], [0.08746134][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.979, 1562 neurons 0.843, 1446 neurons 0.882[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.989, 82670 neurons 0.986, 315542 neurons 0.906[0m
+[92mORIGINAL averaged covered neurons 0.902[0m
+[92mCORRECTED averaged covered neurons 0.934[0m
+Stats for iteration 140: diffs_found = 27, original nc = 0.901750547046, corrected nc = 0.934073223785
+Starting iteration 141
+[92minput already causes different outputs: [0.19885485], [-0.01020366], [-0.04087801][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.979, 1562 neurons 0.843, 1446 neurons 0.882[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.989, 82670 neurons 0.986, 315542 neurons 0.906[0m
+[92mORIGINAL averaged covered neurons 0.902[0m
+[92mCORRECTED averaged covered neurons 0.934[0m
+Stats for iteration 141: diffs_found = 27, original nc = 0.901750547046, corrected nc = 0.934202153543
+Starting iteration 142
+Stats for iteration 142: diffs_found = 27, original nc = 0.901750547046, corrected nc = 0.934202153543
+Starting iteration 143
+Stats for iteration 143: diffs_found = 27, original nc = 0.901750547046, corrected nc = 0.934202153543
+Starting iteration 144
+Stats for iteration 144: diffs_found = 27, original nc = 0.901750547046, corrected nc = 0.934202153543
+Starting iteration 145
+Stats for iteration 145: diffs_found = 27, original nc = 0.901750547046, corrected nc = 0.934202153543
+Starting iteration 146
+[92minput already causes different outputs: [0.28214395], [-0.01020366], [-0.03212496][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.979, 1562 neurons 0.843, 1446 neurons 0.882[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.989, 82670 neurons 0.986, 315542 neurons 0.906[0m
+[92mORIGINAL averaged covered neurons 0.902[0m
+[92mCORRECTED averaged covered neurons 0.934[0m
+Stats for iteration 146: diffs_found = 27, original nc = 0.901750547046, corrected nc = 0.934383071107
+Starting iteration 147
+[92minput already causes different outputs: [0.35392746], [-0.01020366], [0.14273368][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.979, 1562 neurons 0.843, 1446 neurons 0.882[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.989, 82670 neurons 0.987, 315542 neurons 0.906[0m
+[92mORIGINAL averaged covered neurons 0.902[0m
+[92mCORRECTED averaged covered neurons 0.935[0m
+Stats for iteration 147: diffs_found = 27, original nc = 0.901969365427, corrected nc = 0.934503682816
+Starting iteration 148
+Stats for iteration 148: diffs_found = 27, original nc = 0.901969365427, corrected nc = 0.934503682816
+Starting iteration 149
+Stats for iteration 149: diffs_found = 27, original nc = 0.901969365427, corrected nc = 0.934503682816
+Starting iteration 150
+Stats for iteration 150: diffs_found = 27, original nc = 0.901969365427, corrected nc = 0.934503682816
+Starting iteration 151
+Stats for iteration 151: diffs_found = 27, original nc = 0.901969365427, corrected nc = 0.934503682816
+Starting iteration 152
+Stats for iteration 152: diffs_found = 27, original nc = 0.901969365427, corrected nc = 0.934503682816
+Starting iteration 153
+Stats for iteration 153: diffs_found = 27, original nc = 0.901969365427, corrected nc = 0.934503682816
+Starting iteration 154
+Found output which causes difference in models' predictions: [0.23112279] vs [-0.01020366] vs [0.0185785]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.979, 1562 neurons 0.844, 1446 neurons 0.882[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.989, 82670 neurons 0.987, 315542 neurons 0.907[0m
+[92mORIGINAL averaged covered neurons 0.902[0m
+[92mCORRECTED averaged covered neurons 0.935[0m
+Stats for iteration 154: diffs_found = 28, original nc = 0.902188183807, corrected nc = 0.934626374038
+Starting iteration 155
+Found output which causes difference in models' predictions: [-0.5370328] vs [-0.01020366] vs [0.01387794]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.979, 1562 neurons 0.844, 1446 neurons 0.884[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.990, 82670 neurons 0.987, 315542 neurons 0.907[0m
+[92mORIGINAL averaged covered neurons 0.903[0m
+[92mCORRECTED averaged covered neurons 0.935[0m
+Stats for iteration 155: diffs_found = 29, original nc = 0.90284463895, corrected nc = 0.93468460038
+Starting iteration 156
+Found output which causes difference in models' predictions: [-0.4767207] vs [-0.01020366] vs [0.01397244]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.981, 1562 neurons 0.846, 1446 neurons 0.887[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.990, 82670 neurons 0.987, 315542 neurons 0.908[0m
+[92mORIGINAL averaged covered neurons 0.905[0m
+[92mCORRECTED averaged covered neurons 0.936[0m
+Stats for iteration 156: diffs_found = 30, original nc = 0.905032822757, corrected nc = 0.935560075029
+Starting iteration 157
+Stats for iteration 157: diffs_found = 30, original nc = 0.905032822757, corrected nc = 0.935560075029
+Starting iteration 158
+Stats for iteration 158: diffs_found = 30, original nc = 0.905032822757, corrected nc = 0.935560075029
+Starting iteration 159
+[92minput already causes different outputs: [0.17825513], [-0.01020366], [-0.04697969][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.981, 1562 neurons 0.847, 1446 neurons 0.887[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.990, 82670 neurons 0.987, 315542 neurons 0.908[0m
+[92mORIGINAL averaged covered neurons 0.905[0m
+[92mCORRECTED averaged covered neurons 0.936[0m
+Stats for iteration 159: diffs_found = 30, original nc = 0.905470459519, corrected nc = 0.935693163811
+Starting iteration 160
+Stats for iteration 160: diffs_found = 30, original nc = 0.905470459519, corrected nc = 0.935693163811
+Starting iteration 161
+Found output which causes difference in models' predictions: [0.15668043] vs [-0.01020366] vs [0.21967103]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.981, 1562 neurons 0.847, 1446 neurons 0.887[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.991, 82670 neurons 0.987, 315542 neurons 0.909[0m
+[92mORIGINAL averaged covered neurons 0.905[0m
+[92mCORRECTED averaged covered neurons 0.936[0m
+Stats for iteration 161: diffs_found = 31, original nc = 0.905470459519, corrected nc = 0.936210962357
+Starting iteration 162
+Stats for iteration 162: diffs_found = 31, original nc = 0.905470459519, corrected nc = 0.936210962357
+Starting iteration 163
+Found output which causes difference in models' predictions: [-0.3984982] vs [-0.01020366] vs [0.02216844]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.982, 1562 neurons 0.850, 1446 neurons 0.888[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.991, 82670 neurons 0.987, 315542 neurons 0.910[0m
+[92mORIGINAL averaged covered neurons 0.907[0m
+[92mCORRECTED averaged covered neurons 0.937[0m
+Stats for iteration 163: diffs_found = 32, original nc = 0.907002188184, corrected nc = 0.937207048715
+Starting iteration 164
+Stats for iteration 164: diffs_found = 32, original nc = 0.907002188184, corrected nc = 0.937207048715
+Starting iteration 165
+[92minput already causes different outputs: [-0.17071293], [-0.01020366], [0.05674145][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.982, 1562 neurons 0.850, 1446 neurons 0.889[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.991, 82670 neurons 0.988, 315542 neurons 0.910[0m
+[92mORIGINAL averaged covered neurons 0.907[0m
+[92mCORRECTED averaged covered neurons 0.937[0m
+Stats for iteration 165: diffs_found = 32, original nc = 0.907439824945, corrected nc = 0.937481544329
+Starting iteration 166
+Found output which causes difference in models' predictions: [0.24985892] vs [-0.01020366] vs [-0.0096989]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.982, 1562 neurons 0.850, 1446 neurons 0.889[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.991, 82670 neurons 0.988, 315542 neurons 0.910[0m
+[92mORIGINAL averaged covered neurons 0.907[0m
+[92mCORRECTED averaged covered neurons 0.938[0m
+Stats for iteration 166: diffs_found = 33, original nc = 0.907439824945, corrected nc = 0.937560565794
+Starting iteration 167
+[92minput already causes different outputs: [0.21828273], [-0.01020366], [0.04335195][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.982, 1562 neurons 0.850, 1446 neurons 0.891[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.991, 82670 neurons 0.988, 315542 neurons 0.910[0m
+[92mORIGINAL averaged covered neurons 0.908[0m
+[92mCORRECTED averaged covered neurons 0.938[0m
+Stats for iteration 167: diffs_found = 33, original nc = 0.907877461707, corrected nc = 0.93770613165
+Starting iteration 168
+[92minput already causes different outputs: [0.43514493], [-0.01020366], [0.09240513][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.982, 1562 neurons 0.850, 1446 neurons 0.891[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.991, 82670 neurons 0.988, 315542 neurons 0.911[0m
+[92mORIGINAL averaged covered neurons 0.908[0m
+[92mCORRECTED averaged covered neurons 0.938[0m
+Stats for iteration 168: diffs_found = 33, original nc = 0.907877461707, corrected nc = 0.937816345798
+Starting iteration 169
+Stats for iteration 169: diffs_found = 33, original nc = 0.907877461707, corrected nc = 0.937816345798
+Starting iteration 170
+Stats for iteration 170: diffs_found = 33, original nc = 0.907877461707, corrected nc = 0.937816345798
+Starting iteration 171
+Stats for iteration 171: diffs_found = 33, original nc = 0.907877461707, corrected nc = 0.937816345798
+Starting iteration 172
+[92minput already causes different outputs: [-0.11467301], [-0.01020366], [0.10064008][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.850, 1446 neurons 0.891[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.991, 82670 neurons 0.988, 315542 neurons 0.911[0m
+[92mORIGINAL averaged covered neurons 0.908[0m
+[92mCORRECTED averaged covered neurons 0.938[0m
+Stats for iteration 172: diffs_found = 33, original nc = 0.908096280088, corrected nc = 0.937966070678
+Starting iteration 173
+Stats for iteration 173: diffs_found = 33, original nc = 0.908096280088, corrected nc = 0.937966070678
+Starting iteration 174
+Stats for iteration 174: diffs_found = 33, original nc = 0.908096280088, corrected nc = 0.937966070678
+Starting iteration 175
+Found output which causes difference in models' predictions: [-0.53443193] vs [-0.01020366] vs [0.01826975]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.850, 1446 neurons 0.891[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.991, 82670 neurons 0.988, 315542 neurons 0.911[0m
+[92mORIGINAL averaged covered neurons 0.908[0m
+[92mCORRECTED averaged covered neurons 0.938[0m
+Stats for iteration 175: diffs_found = 34, original nc = 0.908096280088, corrected nc = 0.93799518385
+Starting iteration 176
+Found output which causes difference in models' predictions: [-0.6177895] vs [-0.01020366] vs [0.0437649]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.850, 1446 neurons 0.891[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.992, 82670 neurons 0.988, 315542 neurons 0.911[0m
+[92mORIGINAL averaged covered neurons 0.908[0m
+[92mCORRECTED averaged covered neurons 0.938[0m
+Stats for iteration 176: diffs_found = 35, original nc = 0.908096280088, corrected nc = 0.938074205314
+Starting iteration 177
+[92minput already causes different outputs: [0.14179961], [-0.01020366], [0.27281076][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.850, 1446 neurons 0.895[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.992, 82670 neurons 0.988, 315542 neurons 0.911[0m
+[92mORIGINAL averaged covered neurons 0.909[0m
+[92mCORRECTED averaged covered neurons 0.938[0m
+Stats for iteration 177: diffs_found = 35, original nc = 0.909409190372, corrected nc = 0.938394450198
+Starting iteration 178
+Stats for iteration 178: diffs_found = 35, original nc = 0.909409190372, corrected nc = 0.938394450198
+Starting iteration 179
+Stats for iteration 179: diffs_found = 35, original nc = 0.909409190372, corrected nc = 0.938394450198
+Starting iteration 180
+Stats for iteration 180: diffs_found = 35, original nc = 0.909409190372, corrected nc = 0.938394450198
+Starting iteration 181
+Stats for iteration 181: diffs_found = 35, original nc = 0.909409190372, corrected nc = 0.938394450198
+Starting iteration 182
+Stats for iteration 182: diffs_found = 35, original nc = 0.909409190372, corrected nc = 0.938394450198
+Starting iteration 183
+[92minput already causes different outputs: [0.19572], [-0.01020366], [0.00707312][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.850, 1446 neurons 0.895[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.992, 82670 neurons 0.989, 315542 neurons 0.911[0m
+[92mORIGINAL averaged covered neurons 0.909[0m
+[92mCORRECTED averaged covered neurons 0.939[0m
+Stats for iteration 183: diffs_found = 35, original nc = 0.909409190372, corrected nc = 0.938542095566
+Starting iteration 184
+Stats for iteration 184: diffs_found = 35, original nc = 0.909409190372, corrected nc = 0.938542095566
+Starting iteration 185
+[92minput already causes different outputs: [0.3663954], [-0.01020366], [0.04262529][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.850, 1446 neurons 0.895[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.992, 82670 neurons 0.989, 315542 neurons 0.912[0m
+[92mORIGINAL averaged covered neurons 0.909[0m
+[92mCORRECTED averaged covered neurons 0.939[0m
+Stats for iteration 185: diffs_found = 35, original nc = 0.909409190372, corrected nc = 0.938612798982
+Starting iteration 186
+Stats for iteration 186: diffs_found = 35, original nc = 0.909409190372, corrected nc = 0.938612798982
+Starting iteration 187
+Stats for iteration 187: diffs_found = 35, original nc = 0.909409190372, corrected nc = 0.938612798982
+Starting iteration 188
+[92minput already causes different outputs: [0.19362856], [-0.01020366], [0.00298029][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.850, 1446 neurons 0.895[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.992, 82670 neurons 0.989, 315542 neurons 0.912[0m
+[92mORIGINAL averaged covered neurons 0.909[0m
+[92mCORRECTED averaged covered neurons 0.939[0m
+Stats for iteration 188: diffs_found = 35, original nc = 0.909409190372, corrected nc = 0.938702218008
+Starting iteration 189
+Stats for iteration 189: diffs_found = 35, original nc = 0.909409190372, corrected nc = 0.938702218008
+Starting iteration 190
+[92minput already causes different outputs: [-0.16879214], [-0.01020366], [0.06869271][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.850, 1446 neurons 0.895[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.992, 82670 neurons 0.989, 315542 neurons 0.912[0m
+[92mORIGINAL averaged covered neurons 0.910[0m
+[92mCORRECTED averaged covered neurons 0.939[0m
+Stats for iteration 190: diffs_found = 35, original nc = 0.909628008753, corrected nc = 0.938866499474
+Starting iteration 191
+Stats for iteration 191: diffs_found = 35, original nc = 0.909628008753, corrected nc = 0.938866499474
+Starting iteration 192
+Found output which causes difference in models' predictions: [0.1983494] vs [-0.01020366] vs [-0.02298886]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.850, 1446 neurons 0.895[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.992, 82670 neurons 0.989, 315542 neurons 0.912[0m
+[92mORIGINAL averaged covered neurons 0.910[0m
+[92mCORRECTED averaged covered neurons 0.939[0m
+Stats for iteration 192: diffs_found = 36, original nc = 0.909628008753, corrected nc = 0.938928884841
+Starting iteration 193
+Stats for iteration 193: diffs_found = 36, original nc = 0.909628008753, corrected nc = 0.938928884841
+Starting iteration 194
+Stats for iteration 194: diffs_found = 36, original nc = 0.909628008753, corrected nc = 0.938928884841
+Starting iteration 195
+Stats for iteration 195: diffs_found = 36, original nc = 0.909628008753, corrected nc = 0.938928884841
+Starting iteration 196
+[92minput already causes different outputs: [0.52380204], [-0.01020366], [0.00503874][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.850, 1446 neurons 0.895[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.992, 82670 neurons 0.989, 315542 neurons 0.912[0m
+[92mORIGINAL averaged covered neurons 0.910[0m
+[92mCORRECTED averaged covered neurons 0.939[0m
+Stats for iteration 196: diffs_found = 36, original nc = 0.909628008753, corrected nc = 0.939080689234
+Starting iteration 197
+[92minput already causes different outputs: [0.13966], [-0.01020366], [-0.07378911][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.852, 1446 neurons 0.895[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.992, 82670 neurons 0.989, 315542 neurons 0.912[0m
+[92mORIGINAL averaged covered neurons 0.910[0m
+[92mCORRECTED averaged covered neurons 0.939[0m
+Stats for iteration 197: diffs_found = 36, original nc = 0.910284463895, corrected nc = 0.939159710698
+Starting iteration 198
+[92minput already causes different outputs: [0.35999256], [-0.01020366], [0.47554275][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.852, 1446 neurons 0.896[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.992, 82670 neurons 0.989, 315542 neurons 0.912[0m
+[92mORIGINAL averaged covered neurons 0.911[0m
+[92mCORRECTED averaged covered neurons 0.939[0m
+Stats for iteration 198: diffs_found = 36, original nc = 0.910722100656, corrected nc = 0.939328151189
+Starting iteration 199
+[92minput already causes different outputs: [0.14615262], [-0.01020366], [0.39853427][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.853, 1446 neurons 0.896[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.992, 82670 neurons 0.989, 315542 neurons 0.912[0m
+[92mORIGINAL averaged covered neurons 0.911[0m
+[92mCORRECTED averaged covered neurons 0.939[0m
+Stats for iteration 199: diffs_found = 36, original nc = 0.910940919037, corrected nc = 0.939386377531
+Starting iteration 200
+Found output which causes difference in models' predictions: [-0.7705533] vs [-0.01020366] vs [0.00096691]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.853, 1446 neurons 0.898[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.993, 82670 neurons 0.989, 315542 neurons 0.913[0m
+[92mORIGINAL averaged covered neurons 0.912[0m
+[92mCORRECTED averaged covered neurons 0.940[0m
+Stats for iteration 200: diffs_found = 37, original nc = 0.911597374179, corrected nc = 0.939793961928
+Starting iteration 201
+Stats for iteration 201: diffs_found = 37, original nc = 0.911597374179, corrected nc = 0.939793961928
+Starting iteration 202
+Stats for iteration 202: diffs_found = 37, original nc = 0.911597374179, corrected nc = 0.939793961928
+Starting iteration 203
+Stats for iteration 203: diffs_found = 37, original nc = 0.911597374179, corrected nc = 0.939793961928
+Starting iteration 204
+Found output which causes difference in models' predictions: [-0.17796318] vs [-0.01020366] vs [0.02560938]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.853, 1446 neurons 0.898[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.993, 82670 neurons 0.989, 315542 neurons 0.913[0m
+[92mORIGINAL averaged covered neurons 0.912[0m
+[92mCORRECTED averaged covered neurons 0.940[0m
+Stats for iteration 204: diffs_found = 38, original nc = 0.91181619256, corrected nc = 0.939833472661
+Starting iteration 205
+Stats for iteration 205: diffs_found = 38, original nc = 0.91181619256, corrected nc = 0.939833472661
+Starting iteration 206
+Found output which causes difference in models' predictions: [-0.27564505] vs [-0.01020366] vs [0.02431696]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.855, 1446 neurons 0.902[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.993, 82670 neurons 0.989, 315542 neurons 0.914[0m
+[92mORIGINAL averaged covered neurons 0.914[0m
+[92mCORRECTED averaged covered neurons 0.940[0m
+Stats for iteration 206: diffs_found = 39, original nc = 0.913785557987, corrected nc = 0.940207784862
+Starting iteration 207
+Stats for iteration 207: diffs_found = 39, original nc = 0.913785557987, corrected nc = 0.940207784862
+Starting iteration 208
+Stats for iteration 208: diffs_found = 39, original nc = 0.913785557987, corrected nc = 0.940207784862
+Starting iteration 209
+Stats for iteration 209: diffs_found = 39, original nc = 0.913785557987, corrected nc = 0.940207784862
+Starting iteration 210
+Stats for iteration 210: diffs_found = 39, original nc = 0.913785557987, corrected nc = 0.940207784862
+Starting iteration 211
+Stats for iteration 211: diffs_found = 39, original nc = 0.913785557987, corrected nc = 0.940207784862
+Starting iteration 212
+Stats for iteration 212: diffs_found = 39, original nc = 0.913785557987, corrected nc = 0.940207784862
+Starting iteration 213
+Found output which causes difference in models' predictions: [-0.28528953] vs [-0.01020366] vs [0.08841236]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.855, 1446 neurons 0.902[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.993, 82670 neurons 0.989, 315542 neurons 0.914[0m
+[92mORIGINAL averaged covered neurons 0.914[0m
+[92mCORRECTED averaged covered neurons 0.940[0m
+Stats for iteration 213: diffs_found = 40, original nc = 0.913785557987, corrected nc = 0.940253534131
+Starting iteration 214
+[92minput already causes different outputs: [0.18958011], [-0.01020366], [0.25865695][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.855, 1446 neurons 0.902[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.993, 82670 neurons 0.990, 315542 neurons 0.914[0m
+[92mORIGINAL averaged covered neurons 0.914[0m
+[92mCORRECTED averaged covered neurons 0.940[0m
+Stats for iteration 214: diffs_found = 40, original nc = 0.913785557987, corrected nc = 0.940351271206
+Starting iteration 215
+Stats for iteration 215: diffs_found = 40, original nc = 0.913785557987, corrected nc = 0.940351271206
+Starting iteration 216
+[92minput already causes different outputs: [0.03485269], [-0.01020366], [-0.7631663][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.855, 1446 neurons 0.920[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.993, 82670 neurons 0.990, 315542 neurons 0.914[0m
+[92mORIGINAL averaged covered neurons 0.919[0m
+[92mCORRECTED averaged covered neurons 0.940[0m
+Stats for iteration 216: diffs_found = 40, original nc = 0.919474835886, corrected nc = 0.94047604194
+Starting iteration 217
+Stats for iteration 217: diffs_found = 40, original nc = 0.919474835886, corrected nc = 0.94047604194
+Starting iteration 218
+Stats for iteration 218: diffs_found = 40, original nc = 0.919474835886, corrected nc = 0.94047604194
+Starting iteration 219
+Stats for iteration 219: diffs_found = 40, original nc = 0.919474835886, corrected nc = 0.94047604194
+Starting iteration 220
+Stats for iteration 220: diffs_found = 40, original nc = 0.919474835886, corrected nc = 0.94047604194
+Starting iteration 221
+Found output which causes difference in models' predictions: [0.62117094] vs [-0.01020366] vs [-0.00899635]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.855, 1446 neurons 0.920[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.993, 82670 neurons 0.990, 315542 neurons 0.914[0m
+[92mORIGINAL averaged covered neurons 0.919[0m
+[92mCORRECTED averaged covered neurons 0.941[0m
+Stats for iteration 221: diffs_found = 41, original nc = 0.919474835886, corrected nc = 0.94060705121
+Starting iteration 222
+Stats for iteration 222: diffs_found = 41, original nc = 0.919474835886, corrected nc = 0.94060705121
+Starting iteration 223
+Stats for iteration 223: diffs_found = 41, original nc = 0.919474835886, corrected nc = 0.94060705121
+Starting iteration 224
+Stats for iteration 224: diffs_found = 41, original nc = 0.919474835886, corrected nc = 0.94060705121
+Starting iteration 225
+Found output which causes difference in models' predictions: [-0.01536995] vs [-0.01020366] vs [0.19284888]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.859, 1446 neurons 0.920[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.993, 82670 neurons 0.990, 315542 neurons 0.915[0m
+[92mORIGINAL averaged covered neurons 0.921[0m
+[92mCORRECTED averaged covered neurons 0.941[0m
+Stats for iteration 225: diffs_found = 42, original nc = 0.92056892779, corrected nc = 0.941378550247
+Starting iteration 226
+[92minput already causes different outputs: [0.2060834], [-0.01020366], [0.30893487][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.859, 1446 neurons 0.921[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.993, 82670 neurons 0.990, 315542 neurons 0.915[0m
+[92mORIGINAL averaged covered neurons 0.921[0m
+[92mCORRECTED averaged covered neurons 0.941[0m
+Stats for iteration 226: diffs_found = 42, original nc = 0.921006564551, corrected nc = 0.941488764395
+Starting iteration 227
+[92minput already causes different outputs: [-0.2749404], [-0.01020366], [0.04230609][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.859, 1446 neurons 0.921[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.993, 82670 neurons 0.990, 315542 neurons 0.915[0m
+[92mORIGINAL averaged covered neurons 0.921[0m
+[92mCORRECTED averaged covered neurons 0.942[0m
+Stats for iteration 227: diffs_found = 42, original nc = 0.921006564551, corrected nc = 0.941559467811
+Starting iteration 228
+Stats for iteration 228: diffs_found = 42, original nc = 0.921006564551, corrected nc = 0.941559467811
+Starting iteration 229
+Stats for iteration 229: diffs_found = 42, original nc = 0.921006564551, corrected nc = 0.941559467811
+Starting iteration 230
+Stats for iteration 230: diffs_found = 42, original nc = 0.921006564551, corrected nc = 0.941559467811
+Starting iteration 231
+[92minput already causes different outputs: [0.17589958], [-0.01020366], [-0.08864993][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.859, 1446 neurons 0.923[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.993, 82670 neurons 0.990, 315542 neurons 0.916[0m
+[92mORIGINAL averaged covered neurons 0.921[0m
+[92mCORRECTED averaged covered neurons 0.942[0m
+Stats for iteration 231: diffs_found = 42, original nc = 0.921444201313, corrected nc = 0.941680079521
+Starting iteration 232
+Stats for iteration 232: diffs_found = 42, original nc = 0.921444201313, corrected nc = 0.941680079521
+Starting iteration 233
+Found output which causes difference in models' predictions: [0.14159243] vs [-0.01020366] vs [-0.06041955]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.859, 1446 neurons 0.924[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.993, 82670 neurons 0.990, 315542 neurons 0.916[0m
+[92mORIGINAL averaged covered neurons 0.922[0m
+[92mCORRECTED averaged covered neurons 0.942[0m
+Stats for iteration 233: diffs_found = 43, original nc = 0.921881838074, corrected nc = 0.9417445444
+Starting iteration 234
+Stats for iteration 234: diffs_found = 43, original nc = 0.921881838074, corrected nc = 0.9417445444
+Starting iteration 235
+Found output which causes difference in models' predictions: [-0.37603948] vs [-0.01020366] vs [0.00160657]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.859, 1446 neurons 0.928[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.993, 82670 neurons 0.990, 315542 neurons 0.916[0m
+[92mORIGINAL averaged covered neurons 0.923[0m
+[92mCORRECTED averaged covered neurons 0.942[0m
+Stats for iteration 235: diffs_found = 44, original nc = 0.923194748359, corrected nc = 0.941809009279
+Starting iteration 236
+[92minput already causes different outputs: [0.1194773], [-0.01020366], [0.30227765][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.859, 1446 neurons 0.928[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.993, 82670 neurons 0.990, 315542 neurons 0.916[0m
+[92mORIGINAL averaged covered neurons 0.923[0m
+[92mCORRECTED averaged covered neurons 0.942[0m
+Stats for iteration 236: diffs_found = 44, original nc = 0.92341356674, corrected nc = 0.941867235621
+Starting iteration 237
+Stats for iteration 237: diffs_found = 44, original nc = 0.92341356674, corrected nc = 0.941867235621
+Starting iteration 238
+Stats for iteration 238: diffs_found = 44, original nc = 0.92341356674, corrected nc = 0.941867235621
+Starting iteration 239
+[92minput already causes different outputs: [0.19288403], [-0.01020366], [0.00268458][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.859, 1446 neurons 0.928[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.990, 315542 neurons 0.916[0m
+[92mORIGINAL averaged covered neurons 0.923[0m
+[92mCORRECTED averaged covered neurons 0.942[0m
+Stats for iteration 239: diffs_found = 44, original nc = 0.92341356674, corrected nc = 0.941994085867
+Starting iteration 240
+Found output which causes difference in models' predictions: [0.41139352] vs [-0.01020366] vs [0.03033915]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.860, 1446 neurons 0.932[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.990, 315542 neurons 0.917[0m
+[92mORIGINAL averaged covered neurons 0.925[0m
+[92mCORRECTED averaged covered neurons 0.943[0m
+Stats for iteration 240: diffs_found = 45, original nc = 0.924945295405, corrected nc = 0.942744789782
+Starting iteration 241
+Found output which causes difference in models' predictions: [-0.53764254] vs [-0.01020366] vs [0.06564101]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.860, 1446 neurons 0.932[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.990, 315542 neurons 0.917[0m
+[92mORIGINAL averaged covered neurons 0.925[0m
+[92mCORRECTED averaged covered neurons 0.943[0m
+Stats for iteration 241: diffs_found = 46, original nc = 0.924945295405, corrected nc = 0.942763505392
+Starting iteration 242
+Stats for iteration 242: diffs_found = 46, original nc = 0.924945295405, corrected nc = 0.942763505392
+Starting iteration 243
+[92minput already causes different outputs: [-0.20135678], [-0.01020366], [0.08939128][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.862, 1446 neurons 0.932[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.990, 315542 neurons 0.917[0m
+[92mORIGINAL averaged covered neurons 0.926[0m
+[92mCORRECTED averaged covered neurons 0.943[0m
+Stats for iteration 243: diffs_found = 46, original nc = 0.925820568928, corrected nc = 0.94283628832
+Starting iteration 244
+Found output which causes difference in models' predictions: [-0.40655544] vs [-0.01020366] vs [0.01117046]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.983, 1562 neurons 0.862, 1446 neurons 0.932[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.991, 315542 neurons 0.917[0m
+[92mORIGINAL averaged covered neurons 0.926[0m
+[92mCORRECTED averaged covered neurons 0.943[0m
+Stats for iteration 244: diffs_found = 47, original nc = 0.925820568928, corrected nc = 0.942850844906
+Starting iteration 245
+Stats for iteration 245: diffs_found = 47, original nc = 0.925820568928, corrected nc = 0.942850844906
+Starting iteration 246
+Stats for iteration 246: diffs_found = 47, original nc = 0.925820568928, corrected nc = 0.942850844906
+Starting iteration 247
+Found output which causes difference in models' predictions: [-0.8761721] vs [-0.01020366] vs [0.00047691]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.862, 1446 neurons 0.934[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.991, 315542 neurons 0.917[0m
+[92mORIGINAL averaged covered neurons 0.927[0m
+[92mCORRECTED averaged covered neurons 0.943[0m
+Stats for iteration 247: diffs_found = 48, original nc = 0.926695842451, corrected nc = 0.942886196614
+Starting iteration 248
+Stats for iteration 248: diffs_found = 48, original nc = 0.926695842451, corrected nc = 0.942886196614
+Starting iteration 249
+Stats for iteration 249: diffs_found = 48, original nc = 0.926695842451, corrected nc = 0.942886196614
+Starting iteration 250
+[92minput already causes different outputs: [-0.20669143], [-0.01020366], [0.02558938][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.862, 1446 neurons 0.934[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.991, 315542 neurons 0.917[0m
+[92mORIGINAL averaged covered neurons 0.927[0m
+[92mCORRECTED averaged covered neurons 0.943[0m
+Stats for iteration 250: diffs_found = 48, original nc = 0.926695842451, corrected nc = 0.942923627834
+Starting iteration 251
+[92minput already causes different outputs: [0.21969545], [-0.01020366], [0.00937923][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.862, 1446 neurons 0.934[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.991, 315542 neurons 0.917[0m
+[92mORIGINAL averaged covered neurons 0.927[0m
+[92mCORRECTED averaged covered neurons 0.943[0m
+Stats for iteration 251: diffs_found = 48, original nc = 0.926695842451, corrected nc = 0.942961059054
+Starting iteration 252
+Stats for iteration 252: diffs_found = 48, original nc = 0.926695842451, corrected nc = 0.942961059054
+Starting iteration 253
+Found output which causes difference in models' predictions: [-0.19681802] vs [-0.01020366] vs [0.05102161]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.863, 1446 neurons 0.934[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.991, 315542 neurons 0.917[0m
+[92mORIGINAL averaged covered neurons 0.927[0m
+[92mCORRECTED averaged covered neurons 0.943[0m
+Stats for iteration 253: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943056716617
+Starting iteration 254
+Stats for iteration 254: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943056716617
+Starting iteration 255
+Stats for iteration 255: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943056716617
+Starting iteration 256
+Stats for iteration 256: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943056716617
+Starting iteration 257
+Stats for iteration 257: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943056716617
+Starting iteration 258
+[92minput already causes different outputs: [0.42049795], [-0.01020366], [-0.12015061][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.863, 1446 neurons 0.934[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.991, 315542 neurons 0.917[0m
+[92mORIGINAL averaged covered neurons 0.927[0m
+[92mCORRECTED averaged covered neurons 0.943[0m
+Stats for iteration 258: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943081670763
+Starting iteration 259
+Stats for iteration 259: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943081670763
+Starting iteration 260
+[92minput already causes different outputs: [0.1366785], [-0.01020366], [-0.08509241][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.863, 1446 neurons 0.934[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.991, 315542 neurons 0.917[0m
+[92mORIGINAL averaged covered neurons 0.927[0m
+[92mCORRECTED averaged covered neurons 0.943[0m
+Stats for iteration 260: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943133658569
+Starting iteration 261
+Stats for iteration 261: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943133658569
+Starting iteration 262
+Stats for iteration 262: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943133658569
+Starting iteration 263
+Stats for iteration 263: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943133658569
+Starting iteration 264
+[92minput already causes different outputs: [0.2724844], [-0.01020366], [0.19665204][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.863, 1446 neurons 0.934[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.991, 315542 neurons 0.917[0m
+[92mORIGINAL averaged covered neurons 0.927[0m
+[92mCORRECTED averaged covered neurons 0.943[0m
+Stats for iteration 264: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.94326466784
+Starting iteration 265
+Stats for iteration 265: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.94326466784
+Starting iteration 266
+Stats for iteration 266: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.94326466784
+Starting iteration 267
+Stats for iteration 267: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.94326466784
+Starting iteration 268
+Stats for iteration 268: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.94326466784
+Starting iteration 269
+Stats for iteration 269: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.94326466784
+Starting iteration 270
+Stats for iteration 270: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.94326466784
+Starting iteration 271
+[92minput already causes different outputs: [-0.1945152], [-0.01020366], [0.01193757][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.863, 1446 neurons 0.934[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.991, 315542 neurons 0.917[0m
+[92mORIGINAL averaged covered neurons 0.927[0m
+[92mCORRECTED averaged covered neurons 0.943[0m
+Stats for iteration 271: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943322894182
+Starting iteration 272
+Stats for iteration 272: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943322894182
+Starting iteration 273
+Stats for iteration 273: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943322894182
+Starting iteration 274
+Stats for iteration 274: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943322894182
+Starting iteration 275
+Stats for iteration 275: diffs_found = 49, original nc = 0.926914660832, corrected nc = 0.943322894182
+Starting iteration 276
+[92minput already causes different outputs: [0.20937204], [-0.01020366], [0.04410653][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.864, 1446 neurons 0.934[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.991, 315542 neurons 0.918[0m
+[92mORIGINAL averaged covered neurons 0.927[0m
+[92mCORRECTED averaged covered neurons 0.943[0m
+Stats for iteration 276: diffs_found = 49, original nc = 0.927352297593, corrected nc = 0.943416472232
+Starting iteration 277
+Stats for iteration 277: diffs_found = 49, original nc = 0.927352297593, corrected nc = 0.943416472232
+Starting iteration 278
+[92minput already causes different outputs: [0.19431846], [-0.01020366], [-0.0277829][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.864, 1446 neurons 0.935[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.991, 315542 neurons 0.918[0m
+[92mORIGINAL averaged covered neurons 0.928[0m
+[92mCORRECTED averaged covered neurons 0.943[0m
+Stats for iteration 278: diffs_found = 49, original nc = 0.927789934354, corrected nc = 0.943468460038
+Starting iteration 279
+[92minput already causes different outputs: [0.28677356], [-0.01020366], [-0.03834038][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.864, 1446 neurons 0.935[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.994, 82670 neurons 0.991, 315542 neurons 0.918[0m
+[92mORIGINAL averaged covered neurons 0.928[0m
+[92mCORRECTED averaged covered neurons 0.944[0m
+Stats for iteration 279: diffs_found = 49, original nc = 0.927789934354, corrected nc = 0.943512129795
+Starting iteration 280
+Stats for iteration 280: diffs_found = 49, original nc = 0.927789934354, corrected nc = 0.943512129795
+Starting iteration 281
+Stats for iteration 281: diffs_found = 49, original nc = 0.927789934354, corrected nc = 0.943512129795
+Starting iteration 282
+Stats for iteration 282: diffs_found = 49, original nc = 0.927789934354, corrected nc = 0.943512129795
+Starting iteration 283
+Stats for iteration 283: diffs_found = 49, original nc = 0.927789934354, corrected nc = 0.943512129795
+Starting iteration 284
+Stats for iteration 284: diffs_found = 49, original nc = 0.927789934354, corrected nc = 0.943512129795
+Starting iteration 285
+Found output which causes difference in models' predictions: [-0.11456786] vs [-0.01020366] vs [0.08731742]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.864, 1446 neurons 0.935[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.991, 315542 neurons 0.918[0m
+[92mORIGINAL averaged covered neurons 0.928[0m
+[92mCORRECTED averaged covered neurons 0.944[0m
+Stats for iteration 285: diffs_found = 50, original nc = 0.927789934354, corrected nc = 0.943626502967
+Starting iteration 286
+Found output which causes difference in models' predictions: [-0.28261963] vs [-0.01020366] vs [0.22275826]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.866, 1446 neurons 0.935[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.991, 315542 neurons 0.918[0m
+[92mORIGINAL averaged covered neurons 0.928[0m
+[92mCORRECTED averaged covered neurons 0.944[0m
+Stats for iteration 286: diffs_found = 51, original nc = 0.928227571116, corrected nc = 0.944079836634
+Starting iteration 287
+Stats for iteration 287: diffs_found = 51, original nc = 0.928227571116, corrected nc = 0.944079836634
+Starting iteration 288
+Found output which causes difference in models' predictions: [-0.33345366] vs [-0.01020366] vs [0.03411208]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.867, 1446 neurons 0.942[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.991, 315542 neurons 0.919[0m
+[92mORIGINAL averaged covered neurons 0.931[0m
+[92mCORRECTED averaged covered neurons 0.944[0m
+Stats for iteration 288: diffs_found = 52, original nc = 0.931072210066, corrected nc = 0.944435433225
+Starting iteration 289
+Stats for iteration 289: diffs_found = 52, original nc = 0.931072210066, corrected nc = 0.944435433225
+Starting iteration 290
+Stats for iteration 290: diffs_found = 52, original nc = 0.931072210066, corrected nc = 0.944435433225
+Starting iteration 291
+[92minput already causes different outputs: [0.11868506], [-0.01020366], [0.31353456][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.867, 1446 neurons 0.945[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.919[0m
+[92mORIGINAL averaged covered neurons 0.932[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 291: diffs_found = 52, original nc = 0.931947483589, corrected nc = 0.944572681032
+Starting iteration 292
+[92minput already causes different outputs: [0.24322353], [-0.01020366], [-0.03704263][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.867, 1446 neurons 0.945[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.919[0m
+[92mORIGINAL averaged covered neurons 0.932[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 292: diffs_found = 52, original nc = 0.931947483589, corrected nc = 0.944593476154
+Starting iteration 293
+Found output which causes difference in models' predictions: [-0.45795915] vs [-0.01020366] vs [0.00879324]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.945[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.919[0m
+[92mORIGINAL averaged covered neurons 0.932[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 293: diffs_found = 53, original nc = 0.932166301969, corrected nc = 0.944614271277
+Starting iteration 294
+[92minput already causes different outputs: [-0.31467322], [-0.01020366], [0.01456843][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.945[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.919[0m
+[92mORIGINAL averaged covered neurons 0.932[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 294: diffs_found = 53, original nc = 0.932166301969, corrected nc = 0.944628827862
+Starting iteration 295
+Found output which causes difference in models' predictions: [0.28176555] vs [-0.01020366] vs [0.06688722]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.945[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.919[0m
+[92mORIGINAL averaged covered neurons 0.932[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 295: diffs_found = 54, original nc = 0.932166301969, corrected nc = 0.944674577131
+Starting iteration 296
+Found output which causes difference in models' predictions: [-0.16634277] vs [-0.01020366] vs [0.04450971]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.946[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.919[0m
+[92mORIGINAL averaged covered neurons 0.933[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 296: diffs_found = 55, original nc = 0.932603938731, corrected nc = 0.944803506889
+Starting iteration 297
+Stats for iteration 297: diffs_found = 55, original nc = 0.932603938731, corrected nc = 0.944803506889
+Starting iteration 298
+[92minput already causes different outputs: [0.22476308], [-0.01020366], [0.22916284][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.947[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.919[0m
+[92mORIGINAL averaged covered neurons 0.933[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 298: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.944888766891
+Starting iteration 299
+Stats for iteration 299: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.944888766891
+Starting iteration 300
+[92minput already causes different outputs: [0.30380523], [-0.01020366], [-0.00636271][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.947[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.933[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 300: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.944988583478
+Starting iteration 301
+Stats for iteration 301: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.944988583478
+Starting iteration 302
+[92minput already causes different outputs: [0.27636775], [-0.01020366], [0.00050306][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.947[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.933[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 302: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.945023935186
+Starting iteration 303
+[92minput already causes different outputs: [0.17707892], [-0.01020366], [0.21608408][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.947[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.933[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 303: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.945044730308
+Starting iteration 304
+Stats for iteration 304: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.945044730308
+Starting iteration 305
+Stats for iteration 305: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.945044730308
+Starting iteration 306
+[92minput already causes different outputs: [-0.20424773], [-0.01020366], [0.00233482][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.947[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.933[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 306: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.945090479577
+Starting iteration 307
+[92minput already causes different outputs: [0.3900741], [-0.01020366], [0.07779232][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.947[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.933[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 307: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.945163262505
+Starting iteration 308
+[92minput already causes different outputs: [0.2058876], [-0.01020366], [0.00012934][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.947[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.933[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 308: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.94518613714
+Starting iteration 309
+Stats for iteration 309: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.94518613714
+Starting iteration 310
+Stats for iteration 310: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.94518613714
+Starting iteration 311
+Stats for iteration 311: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.94518613714
+Starting iteration 312
+Stats for iteration 312: diffs_found = 55, original nc = 0.933260393873, corrected nc = 0.94518613714
+Starting iteration 313
+Found output which causes difference in models' predictions: [-0.7663438] vs [-0.01020366] vs [0.00128853]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.947[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.933[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 313: diffs_found = 56, original nc = 0.933260393873, corrected nc = 0.945188216652
+Starting iteration 314
+Stats for iteration 314: diffs_found = 56, original nc = 0.933260393873, corrected nc = 0.945188216652
+Starting iteration 315
+Stats for iteration 315: diffs_found = 56, original nc = 0.933260393873, corrected nc = 0.945188216652
+Starting iteration 316
+[92minput already causes different outputs: [0.25044805], [-0.01020366], [-0.01767379][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.947[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.933[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 316: diffs_found = 56, original nc = 0.933260393873, corrected nc = 0.945227727384
+Starting iteration 317
+Stats for iteration 317: diffs_found = 56, original nc = 0.933260393873, corrected nc = 0.945227727384
+Starting iteration 318
+Stats for iteration 318: diffs_found = 56, original nc = 0.933260393873, corrected nc = 0.945227727384
+Starting iteration 319
+Found output which causes difference in models' predictions: [-0.40687543] vs [-0.01020366] vs [0.08799479]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.947[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.933[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 319: diffs_found = 57, original nc = 0.933260393873, corrected nc = 0.945236045433
+Starting iteration 320
+Found output which causes difference in models' predictions: [-0.41367805] vs [-0.01020366] vs [0.04585477]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.949[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.934[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 320: diffs_found = 58, original nc = 0.933698030635, corrected nc = 0.94526099958
+Starting iteration 321
+Stats for iteration 321: diffs_found = 58, original nc = 0.933698030635, corrected nc = 0.94526099958
+Starting iteration 322
+Stats for iteration 322: diffs_found = 58, original nc = 0.933698030635, corrected nc = 0.94526099958
+Starting iteration 323
+Stats for iteration 323: diffs_found = 58, original nc = 0.933698030635, corrected nc = 0.94526099958
+Starting iteration 324
+Stats for iteration 324: diffs_found = 58, original nc = 0.933698030635, corrected nc = 0.94526099958
+Starting iteration 325
+Found output which causes difference in models' predictions: [-0.17613539] vs [-0.01020366] vs [0.03893756]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.949[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.934[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 325: diffs_found = 59, original nc = 0.933698030635, corrected nc = 0.945275556166
+Starting iteration 326
+Stats for iteration 326: diffs_found = 59, original nc = 0.933698030635, corrected nc = 0.945275556166
+Starting iteration 327
+Found output which causes difference in models' predictions: [-0.8556149] vs [-0.01020366] vs [0.00258535]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.949[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.934[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 327: diffs_found = 60, original nc = 0.933698030635, corrected nc = 0.945323384947
+Starting iteration 328
+Stats for iteration 328: diffs_found = 60, original nc = 0.933698030635, corrected nc = 0.945323384947
+Starting iteration 329
+Stats for iteration 329: diffs_found = 60, original nc = 0.933698030635, corrected nc = 0.945323384947
+Starting iteration 330
+Stats for iteration 330: diffs_found = 60, original nc = 0.933698030635, corrected nc = 0.945323384947
+Starting iteration 331
+Stats for iteration 331: diffs_found = 60, original nc = 0.933698030635, corrected nc = 0.945323384947
+Starting iteration 332
+Stats for iteration 332: diffs_found = 60, original nc = 0.933698030635, corrected nc = 0.945323384947
+Starting iteration 333
+Stats for iteration 333: diffs_found = 60, original nc = 0.933698030635, corrected nc = 0.945323384947
+Starting iteration 334
+[92minput already causes different outputs: [0.19432712], [-0.01020366], [-0.0366433][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.985, 1562 neurons 0.868, 1446 neurons 0.949[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.934[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 334: diffs_found = 60, original nc = 0.933698030635, corrected nc = 0.945342100557
+Starting iteration 335
+Found output which causes difference in models' predictions: [-0.19171588] vs [-0.01020366] vs [0.01254995]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.986, 1562 neurons 0.869, 1446 neurons 0.949[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.934[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 335: diffs_found = 61, original nc = 0.934354485777, corrected nc = 0.945394088363
+Starting iteration 336
+Stats for iteration 336: diffs_found = 61, original nc = 0.934354485777, corrected nc = 0.945394088363
+Starting iteration 337
+Stats for iteration 337: diffs_found = 61, original nc = 0.934354485777, corrected nc = 0.945394088363
+Starting iteration 338
+[92minput already causes different outputs: [0.21251555], [-0.01020366], [-0.03365817][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.986, 1562 neurons 0.869, 1446 neurons 0.949[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.934[0m
+[92mCORRECTED averaged covered neurons 0.945[0m
+Stats for iteration 338: diffs_found = 61, original nc = 0.934354485777, corrected nc = 0.945423201534
+Starting iteration 339
+Stats for iteration 339: diffs_found = 61, original nc = 0.934354485777, corrected nc = 0.945423201534
+Starting iteration 340
+Found output which causes difference in models' predictions: [-0.2625217] vs [-0.01020366] vs [0.03547109]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.986, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.995, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 340: diffs_found = 62, original nc = 0.935010940919, corrected nc = 0.945589562512
+Starting iteration 341
+Stats for iteration 341: diffs_found = 62, original nc = 0.935010940919, corrected nc = 0.945589562512
+Starting iteration 342
+Stats for iteration 342: diffs_found = 62, original nc = 0.935010940919, corrected nc = 0.945589562512
+Starting iteration 343
+Found output which causes difference in models' predictions: [0.20734368] vs [-0.01020366] vs [0.02995453]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.986, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 343: diffs_found = 63, original nc = 0.935010940919, corrected nc = 0.94564362983
+Starting iteration 344
+Stats for iteration 344: diffs_found = 63, original nc = 0.935010940919, corrected nc = 0.94564362983
+Starting iteration 345
+Found output which causes difference in models' predictions: [0.2733034] vs [-0.01020366] vs [-0.02023761]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.986, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 345: diffs_found = 64, original nc = 0.935010940919, corrected nc = 0.94568106105
+Starting iteration 346
+Stats for iteration 346: diffs_found = 64, original nc = 0.935010940919, corrected nc = 0.94568106105
+Starting iteration 347
+Stats for iteration 347: diffs_found = 64, original nc = 0.935010940919, corrected nc = 0.94568106105
+Starting iteration 348
+Stats for iteration 348: diffs_found = 64, original nc = 0.935010940919, corrected nc = 0.94568106105
+Starting iteration 349
+Stats for iteration 349: diffs_found = 64, original nc = 0.935010940919, corrected nc = 0.94568106105
+Starting iteration 350
+Stats for iteration 350: diffs_found = 64, original nc = 0.935010940919, corrected nc = 0.94568106105
+Starting iteration 351
+[92minput already causes different outputs: [0.15249589], [-0.01020366], [0.39681098][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.986, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 351: diffs_found = 64, original nc = 0.935010940919, corrected nc = 0.94569977666
+Starting iteration 352
+Stats for iteration 352: diffs_found = 64, original nc = 0.935010940919, corrected nc = 0.94569977666
+Starting iteration 353
+[92minput already causes different outputs: [0.29593095], [-0.01020366], [0.25907454][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.987, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 353: diffs_found = 64, original nc = 0.9352297593, corrected nc = 0.945728889832
+Starting iteration 354
+Stats for iteration 354: diffs_found = 64, original nc = 0.9352297593, corrected nc = 0.945728889832
+Starting iteration 355
+Stats for iteration 355: diffs_found = 64, original nc = 0.9352297593, corrected nc = 0.945728889832
+Starting iteration 356
+[92minput already causes different outputs: [0.2789634], [-0.01020366], [0.2732885][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.987, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 356: diffs_found = 64, original nc = 0.9352297593, corrected nc = 0.945747605442
+Starting iteration 357
+Stats for iteration 357: diffs_found = 64, original nc = 0.9352297593, corrected nc = 0.945747605442
+Starting iteration 358
+Stats for iteration 358: diffs_found = 64, original nc = 0.9352297593, corrected nc = 0.945747605442
+Starting iteration 359
+Found output which causes difference in models' predictions: [-0.29259396] vs [-0.01020366] vs [0.00982631]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.987, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.992, 315542 neurons 0.920[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 359: diffs_found = 65, original nc = 0.9352297593, corrected nc = 0.945768400564
+Starting iteration 360
+Stats for iteration 360: diffs_found = 65, original nc = 0.9352297593, corrected nc = 0.945768400564
+Starting iteration 361
+Stats for iteration 361: diffs_found = 65, original nc = 0.9352297593, corrected nc = 0.945768400564
+Starting iteration 362
+[92minput already causes different outputs: [0.2025855], [-0.01020366], [0.06034886][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.987, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.992, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 362: diffs_found = 65, original nc = 0.9352297593, corrected nc = 0.945824547394
+Starting iteration 363
+[92minput already causes different outputs: [0.21688324], [-0.01020366], [-0.03438853][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.987, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.992, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 363: diffs_found = 65, original nc = 0.9352297593, corrected nc = 0.945824547394
+Starting iteration 364
+[92minput already causes different outputs: [0.34171587], [-0.01020366], [0.04995783][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.987, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.992, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 364: diffs_found = 65, original nc = 0.9352297593, corrected nc = 0.945847422029
+Starting iteration 365
+[92minput already causes different outputs: [0.25714025], [-0.01020366], [-0.03635786][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.987, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.992, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 365: diffs_found = 65, original nc = 0.9352297593, corrected nc = 0.945872376175
+Starting iteration 366
+[92minput already causes different outputs: [0.69062245], [-0.01020366], [0.38374496][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.987, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.993, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 366: diffs_found = 65, original nc = 0.9352297593, corrected nc = 0.945947238616
+Starting iteration 367
+Stats for iteration 367: diffs_found = 65, original nc = 0.9352297593, corrected nc = 0.945947238616
+Starting iteration 368
+Stats for iteration 368: diffs_found = 65, original nc = 0.9352297593, corrected nc = 0.945947238616
+Starting iteration 369
+[92minput already causes different outputs: [0.32793033], [-0.01020366], [0.19438514][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.987, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.993, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 369: diffs_found = 65, original nc = 0.9352297593, corrected nc = 0.945997146909
+Starting iteration 370
+Stats for iteration 370: diffs_found = 65, original nc = 0.9352297593, corrected nc = 0.945997146909
+Starting iteration 371
+Found output which causes difference in models' predictions: [-0.2655095] vs [-0.01020366] vs [0.01909797]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.987, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.993, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 371: diffs_found = 66, original nc = 0.9352297593, corrected nc = 0.946028339593
+Starting iteration 372
+Stats for iteration 372: diffs_found = 66, original nc = 0.9352297593, corrected nc = 0.946028339593
+Starting iteration 373
+Stats for iteration 373: diffs_found = 66, original nc = 0.9352297593, corrected nc = 0.946028339593
+Starting iteration 374
+Stats for iteration 374: diffs_found = 66, original nc = 0.9352297593, corrected nc = 0.946028339593
+Starting iteration 375
+Found output which causes difference in models' predictions: [-0.14290608] vs [-0.01020366] vs [0.06230954]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.987, 1562 neurons 0.870, 1446 neurons 0.950[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.993, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.935[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 375: diffs_found = 67, original nc = 0.9352297593, corrected nc = 0.946057452764
+Starting iteration 376
+Stats for iteration 376: diffs_found = 67, original nc = 0.9352297593, corrected nc = 0.946057452764
+Starting iteration 377
+Stats for iteration 377: diffs_found = 67, original nc = 0.9352297593, corrected nc = 0.946057452764
+Starting iteration 378
+Stats for iteration 378: diffs_found = 67, original nc = 0.9352297593, corrected nc = 0.946057452764
+Starting iteration 379
+Stats for iteration 379: diffs_found = 67, original nc = 0.9352297593, corrected nc = 0.946057452764
+Starting iteration 380
+Stats for iteration 380: diffs_found = 67, original nc = 0.9352297593, corrected nc = 0.946057452764
+Starting iteration 381
+Stats for iteration 381: diffs_found = 67, original nc = 0.9352297593, corrected nc = 0.946057452764
+Starting iteration 382
+Stats for iteration 382: diffs_found = 67, original nc = 0.9352297593, corrected nc = 0.946057452764
+Starting iteration 383
+Stats for iteration 383: diffs_found = 67, original nc = 0.9352297593, corrected nc = 0.946057452764
+Starting iteration 384
+Found output which causes difference in models' predictions: [0.1925106] vs [-0.01020366] vs [-0.07754341]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.987, 1562 neurons 0.871, 1446 neurons 0.952[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.993, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.936[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 384: diffs_found = 68, original nc = 0.935886214442, corrected nc = 0.946074088862
+Starting iteration 385
+Stats for iteration 385: diffs_found = 68, original nc = 0.935886214442, corrected nc = 0.946074088862
+Starting iteration 386
+Stats for iteration 386: diffs_found = 68, original nc = 0.935886214442, corrected nc = 0.946074088862
+Starting iteration 387
+Stats for iteration 387: diffs_found = 68, original nc = 0.935886214442, corrected nc = 0.946074088862
+Starting iteration 388
+Stats for iteration 388: diffs_found = 68, original nc = 0.935886214442, corrected nc = 0.946074088862
+Starting iteration 389
+Found output which causes difference in models' predictions: [-0.13282648] vs [-0.01020366] vs [0.08280524]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.987, 1562 neurons 0.871, 1446 neurons 0.953[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.993, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.936[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 389: diffs_found = 69, original nc = 0.936323851204, corrected nc = 0.946321550817
+Starting iteration 390
+[92minput already causes different outputs: [0.2673862], [-0.01020366], [-0.05396691][0m
+[92mORIGINAL covered neurons percentage 1562 neurons 0.987, 1562 neurons 0.871, 1446 neurons 0.953[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.993, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.936[0m
+[92mCORRECTED averaged covered neurons 0.946[0m
+Stats for iteration 390: diffs_found = 69, original nc = 0.936323851204, corrected nc = 0.946361061549
+Starting iteration 391
+Stats for iteration 391: diffs_found = 69, original nc = 0.936323851204, corrected nc = 0.946361061549
+Starting iteration 392
+Found output which causes difference in models' predictions: [0.23313166] vs [-0.01020366] vs [0.15255094]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.988, 1562 neurons 0.871, 1446 neurons 0.953[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.993, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.937[0m
+[92mCORRECTED averaged covered neurons 0.947[0m
+Stats for iteration 392: diffs_found = 70, original nc = 0.936980306346, corrected nc = 0.946506627405
+Starting iteration 393
+Stats for iteration 393: diffs_found = 70, original nc = 0.936980306346, corrected nc = 0.946506627405
+Starting iteration 394
+Found output which causes difference in models' predictions: [-0.30597907] vs [-0.01020366] vs [0.01843172]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.988, 1562 neurons 0.871, 1446 neurons 0.953[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.993, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.937[0m
+[92mCORRECTED averaged covered neurons 0.947[0m
+Stats for iteration 394: diffs_found = 71, original nc = 0.936980306346, corrected nc = 0.946506627405
+Starting iteration 395
+Stats for iteration 395: diffs_found = 71, original nc = 0.936980306346, corrected nc = 0.946506627405
+Starting iteration 396
+Found output which causes difference in models' predictions: [0.08799762] vs [-0.01020366] vs [-0.356013]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.988, 1562 neurons 0.871, 1446 neurons 0.953[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.993, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.937[0m
+[92mCORRECTED averaged covered neurons 0.947[0m
+Stats for iteration 396: diffs_found = 72, original nc = 0.936980306346, corrected nc = 0.946506627405
+Starting iteration 397
+Stats for iteration 397: diffs_found = 72, original nc = 0.936980306346, corrected nc = 0.946506627405
+Starting iteration 398
+Stats for iteration 398: diffs_found = 72, original nc = 0.936980306346, corrected nc = 0.946506627405
+Starting iteration 399
+Stats for iteration 399: diffs_found = 72, original nc = 0.936980306346, corrected nc = 0.946506627405
+Starting iteration 400
+Found output which causes difference in models' predictions: [-0.38409367] vs [-0.01020366] vs [0.05459941]
+[92mORIGINAL covered neurons percentage 1562 neurons 0.988, 1562 neurons 0.871, 1446 neurons 0.953[0m
+[92mCORRECTED covered neurons percentage 82670 neurons 0.996, 82670 neurons 0.993, 315542 neurons 0.921[0m
+[92mORIGINAL averaged covered neurons 0.937[0m
+[92mCORRECTED averaged covered neurons 0.947[0m
+Stats for iteration 400: diffs_found = 73, original nc = 0.936980306346, corrected nc = 0.946521183991
+Starting iteration 401
+Stats for iteration 401: diffs_found = 73, original nc = 0.936980306346, corrected nc = 0.946521183991
+Starting iteration 402
+Stats for iteration 402: diffs_found = 
