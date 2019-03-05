@@ -3,3 +3,6 @@
 ./Driving/training
 ./Drebin/dataset
 /Drebin/*.h5
+
+.keras
+generated_inputs/*
