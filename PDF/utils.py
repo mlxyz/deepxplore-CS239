@@ -41,20 +41,29 @@ def constraint(gradients, incre_idx, incre_decre_idx):
 
 def init_coverage_tables(model1, model2, model3):
     model_layer_dict1 = defaultdict(bool)
+    indiv_neuron_dict1 = defaultdict(bool)
     model_layer_dict2 = defaultdict(bool)
+    indiv_neuron_dict2 = defaultdict(bool)
     model_layer_dict3 = defaultdict(bool)
-    init_dict(model1, model_layer_dict1)
-    init_dict(model2, model_layer_dict2)
-    init_dict(model3, model_layer_dict3)
-    return model_layer_dict1, model_layer_dict2, model_layer_dict3
+    indiv_neuron_dict3 = defaultdict(bool)
+    init_dict(model1, model_layer_dict1, indiv_neuron_dict1)
+    init_dict(model2, model_layer_dict2, indiv_neuron_dict2)
+    init_dict(model3, model_layer_dict3, indiv_neuron_dict3)
+    return model_layer_dict1, indiv_neuron_dict1, model_layer_dict2, indiv_neuron_dict2, model_layer_dict3, indiv_neuron_dict3
 
 
-def init_dict(model, model_layer_dict):
+def init_dict(model, model_layer_dict, indiv_neuron_dict):
     for layer in model.layers:
         if 'flatten' in layer.name or 'input' in layer.name:
             continue
         for index in range(layer.output_shape[-1]):
             model_layer_dict[(layer.name, index)] = False
+        for index in xrange(num_neurons(layer.output_shape)):
+            indiv_neuron_dict[(layer.name, index)] = False
+
+
+def num_neurons(shape):
+    return reduce(lambda x,y: x*y, filter(lambda x : x != None, shape))
 
 
 def neuron_to_cover(model_layer_dict):
@@ -79,7 +88,7 @@ def scale(intermediate_layer_output, rmax=1, rmin=0):
     return X_scaled
 
 
-def update_coverage(input_data, model, model_layer_dict, threshold=0):
+def update_coverage(input_data, model, model_layer_dict, indiv_neuron_dict, threshold=0):
     layer_names = [layer.name for layer in model.layers if
                    'flatten' not in layer.name and 'input' not in layer.name]
 
@@ -92,6 +101,11 @@ def update_coverage(input_data, model, model_layer_dict, threshold=0):
         for num_neuron in xrange(scaled.shape[-1]):
             if np.mean(scaled[..., num_neuron]) > threshold and not model_layer_dict[(layer_names[i], num_neuron)]:
                 model_layer_dict[(layer_names[i], num_neuron)] = True
+
+        for neuron in range(num_neurons(scaled.shape)):
+            neuron_value = scaled[np.unravel_index(neuron, scaled.shape)]
+            if (neuron_value > threshold) and not indiv_neuron_dict[(layer_names[i], neuron)]:
+                indiv_neuron_dict[(layer_names[i], neuron)] = True
 
 
 def full_coverage(model_layer_dict):

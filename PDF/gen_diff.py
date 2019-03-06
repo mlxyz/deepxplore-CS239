@@ -44,11 +44,25 @@ model1 = Model1(input_tensor=input_tensor, load_weights=True)
 model2 = Model2(input_tensor=input_tensor, load_weights=True)
 model3 = Model3(input_tensor=input_tensor, load_weights=True)
 # init coverage table
-model_layer_dict1, model_layer_dict2, model_layer_dict3 = init_coverage_tables(model1, model2, model3)
+# init coverage table
+model_layer_dict1, indiv_neuron_dict1, model_layer_dict2, indiv_neuron_dict2, model_layer_dict3, indiv_neuron_dict3 = init_coverage_tables(model1, model2, model3)
 
 # ==============================================================================================
 # start gen inputs
-for _ in xrange(args.seeds):
+iteration_stats = {}
+iteration_stats['iter'] = 0
+iteration_stats['num_generated'] = 0
+iteration_stats['nc_original_avg'] = 0
+iteration_stats['nc_corrected_avg'] = 0
+for seed_iter in xrange(args.seeds):
+    if (seed_iter > 0):
+        # plus one last print at the very end.
+        print(
+            "Stats for iteration {iter}: diffs_found = {num_generated}, original nc = {nc_original_avg}, corrected nc = {nc_corrected_avg}".format(
+                **iteration_stats))
+    iteration_stats['iter'] = seed_iter + 1
+    print("Starting iteration " + str(seed_iter + 1))
+
     idx = random.randint(0, len(X_test))
     gen_pdf = np.expand_dims(X_test[idx], axis=0)
     orig_pdf = gen_pdf.copy()
@@ -59,11 +73,11 @@ for _ in xrange(args.seeds):
         print(bcolors.OKGREEN + 'input already causes different outputs: {}, {}, {}'.format(label1, label2,
                                                                                             label3) + bcolors.ENDC)
 
-        update_coverage(gen_pdf, model1, model_layer_dict1, args.threshold)
-        update_coverage(gen_pdf, model2, model_layer_dict2, args.threshold)
-        update_coverage(gen_pdf, model3, model_layer_dict3, args.threshold)
+        update_coverage(gen_pdf, model1, model_layer_dict1, indiv_neuron_dict1, args.threshold)
+        update_coverage(gen_pdf, model2, model_layer_dict2, indiv_neuron_dict2, args.threshold)
+        update_coverage(gen_pdf, model3, model_layer_dict3, indiv_neuron_dict3, args.threshold)
 
-        print(bcolors.OKGREEN + 'covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
+        print(bcolors.OKGREEN + 'ORIGINAL covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
               % (len(model_layer_dict1), neuron_covered(model_layer_dict1)[2], len(model_layer_dict2),
                  neuron_covered(model_layer_dict2)[2], len(model_layer_dict3),
                  neuron_covered(model_layer_dict3)[2]) + bcolors.ENDC)
@@ -72,13 +86,28 @@ for _ in xrange(args.seeds):
             neuron_covered(model_layer_dict1)[1] + neuron_covered(model_layer_dict2)[1] +
             neuron_covered(model_layer_dict3)[
                 1])
-        print(bcolors.OKGREEN + 'averaged covered neurons %.3f' % averaged_nc + bcolors.ENDC)
+        print(bcolors.OKGREEN + 'CORRECTED covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
+              % (len(indiv_neuron_dict1), neuron_covered(indiv_neuron_dict1)[2], len(indiv_neuron_dict2),
+                 neuron_covered(indiv_neuron_dict2)[2], len(indiv_neuron_dict3),
+                 neuron_covered(indiv_neuron_dict3)[2]) + bcolors.ENDC)
+        averaged_nc_corrected = (neuron_covered(indiv_neuron_dict1)[0] + neuron_covered(indiv_neuron_dict2)[0] +
+                                 neuron_covered(indiv_neuron_dict3)[0]) / float(
+            neuron_covered(indiv_neuron_dict1)[1] + neuron_covered(indiv_neuron_dict2)[1] +
+            neuron_covered(indiv_neuron_dict3)[
+                1])
+        print(bcolors.OKGREEN + 'ORIGINAL averaged covered neurons %.3f' % averaged_nc + bcolors.ENDC)
+        print(bcolors.OKGREEN + 'CORRECTED averaged covered neurons %.3f' % averaged_nc_corrected + bcolors.ENDC)
 
         # save the result to disk
         with open(output_file, 'a') as f:
             f.write(
                 'Already causes differences: name: {}, label1:{}, label2: {}, label3: {}\n'.format(names[idx], label1,
                                                                                                    label2, label3))
+
+        # global_stats['num_generated'] += 0 # nothing new generated here.
+        iteration_stats['nc_original_avg'] = averaged_nc
+        iteration_stats['nc_corrected_avg'] = averaged_nc_corrected
+
         continue
 
     # if all turning angles roughly the same
@@ -125,24 +154,43 @@ for _ in xrange(args.seeds):
             model2.predict(gen_pdf)[0]), np.argmax(model3.predict(gen_pdf)[0])
 
         if not label1 == label2 == label3:
-            update_coverage(gen_pdf, model1, model_layer_dict1, args.threshold)
-            update_coverage(gen_pdf, model2, model_layer_dict2, args.threshold)
-            update_coverage(gen_pdf, model3, model_layer_dict3, args.threshold)
+            update_coverage(gen_pdf, model1, model_layer_dict1, indiv_neuron_dict1, args.threshold)
+            update_coverage(gen_pdf, model2, model_layer_dict2, indiv_neuron_dict2, args.threshold)
+            update_coverage(gen_pdf, model3, model_layer_dict3, indiv_neuron_dict3, args.threshold)
 
-            print(bcolors.OKGREEN + 'covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
-                  % (len(model_layer_dict1), neuron_covered(model_layer_dict1)[2], len(model_layer_dict2),
-                     neuron_covered(model_layer_dict2)[2], len(model_layer_dict3),
-                     neuron_covered(model_layer_dict3)[2]) + bcolors.ENDC)
+            print("Found output which causes difference in models' predictions: %s vs %s vs %s" % (label1, label2, label3))
+            print(
+                bcolors.OKGREEN + 'ORIGINAL covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
+                % (len(model_layer_dict1), neuron_covered(model_layer_dict1)[2], len(model_layer_dict2),
+                   neuron_covered(model_layer_dict2)[2], len(model_layer_dict3),
+                   neuron_covered(model_layer_dict3)[2]) + bcolors.ENDC)
             averaged_nc = (neuron_covered(model_layer_dict1)[0] + neuron_covered(model_layer_dict2)[0] +
                            neuron_covered(model_layer_dict3)[0]) / float(
                 neuron_covered(model_layer_dict1)[1] + neuron_covered(model_layer_dict2)[1] +
                 neuron_covered(model_layer_dict3)[
                     1])
-            print(bcolors.OKGREEN + 'averaged covered neurons %.3f' % averaged_nc + bcolors.ENDC)
+            print(
+                bcolors.OKGREEN + 'CORRECTED covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
+                % (len(indiv_neuron_dict1), neuron_covered(indiv_neuron_dict1)[2], len(indiv_neuron_dict2),
+                   neuron_covered(indiv_neuron_dict2)[2], len(indiv_neuron_dict3),
+                   neuron_covered(indiv_neuron_dict3)[2]) + bcolors.ENDC)
+            averaged_nc_corrected = (neuron_covered(indiv_neuron_dict1)[0] + neuron_covered(indiv_neuron_dict2)[0] +
+                                     neuron_covered(indiv_neuron_dict3)[0]) / float(
+                neuron_covered(indiv_neuron_dict1)[1] + neuron_covered(indiv_neuron_dict2)[1] +
+                neuron_covered(indiv_neuron_dict3)[
+                    1])
+            print(bcolors.OKGREEN + 'ORIGINAL averaged covered neurons %.3f' % averaged_nc + bcolors.ENDC)
+            print(bcolors.OKGREEN + 'CORRECTED averaged covered neurons %.3f' % averaged_nc_corrected + bcolors.ENDC)
 
             # save the result to disk
             with open(output_file, 'a') as f:
                 f.write(
                     'name: {}, label1:{}, label2: {}, label3: {}\n'.format(names[idx], label1, label2, label3))
                 f.write('changed features: {}\n\n'.format(features_changed(gen_pdf, orig_pdf, feat_names)))
+
+            iteration_stats['num_generated'] += 1
+            iteration_stats['nc_original_avg'] = averaged_nc
+            iteration_stats['nc_corrected_avg'] = averaged_nc_corrected
             break
+
+print("Stats for iteration {iter}: diffs_found = {num_generated}, original nc = {nc_original_avg}, corrected nc = {nc_corrected_avg}".format(**iteration_stats))
