@@ -69,7 +69,7 @@ for seed_iter in xrange(args.seeds):
     #if((seed_iter+1) % 10):
     if(seed_iter > 0):
         # plus one last print at the very end.
-        print("Stats for iteration {iter}: diffs_found = {num_generated}, original nc = {nc_original_avg}, corrected nc = {nc_corrected_avg}".format(**iteration_stats))
+        print("Stats for iteration {iter}: diffs_found = {num_generated}, original nc = {nc_original_avg}, corrected [unscaled] nc = {nc_corrected_avg}".format(**iteration_stats))
     iteration_stats['iter'] = seed_iter + 1
     print("Starting iteration " + str(seed_iter + 1))
 
@@ -96,7 +96,7 @@ for seed_iter in xrange(args.seeds):
             neuron_covered(model_layer_dict1)[1] + neuron_covered(model_layer_dict2)[1] +
             neuron_covered(model_layer_dict3)[
                 1])
-        print(bcolors.OKGREEN + 'CORRECTED covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
+        print(bcolors.OKGREEN + 'CORRECTED [unscaled] covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
               % (len(indiv_neuron_dict1), neuron_covered(indiv_neuron_dict1)[2], len(indiv_neuron_dict2),
                  neuron_covered(indiv_neuron_dict2)[2], len(indiv_neuron_dict3),
                  neuron_covered(indiv_neuron_dict3)[2]) + bcolors.ENDC)
@@ -106,7 +106,7 @@ for seed_iter in xrange(args.seeds):
             neuron_covered(indiv_neuron_dict3)[
                 1])
         print(bcolors.OKGREEN + 'ORIGINAL averaged covered neurons %.3f' % averaged_nc + bcolors.ENDC)
-        print(bcolors.OKGREEN + 'CORRECTED averaged covered neurons %.3f' % averaged_nc_corrected + bcolors.ENDC)
+        print(bcolors.OKGREEN + 'CORRECTED [unscaled] averaged covered neurons %.3f' % averaged_nc_corrected + bcolors.ENDC)
 
         gen_img_deprocessed = deprocess_image(gen_img)
 
@@ -187,7 +187,7 @@ for seed_iter in xrange(args.seeds):
                 neuron_covered(model_layer_dict3)[
                     1])
             print(
-                bcolors.OKGREEN + 'CORRECTED covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
+                bcolors.OKGREEN + 'CORRECTED [unscaled] covered neurons percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
                 % (len(indiv_neuron_dict1), neuron_covered(indiv_neuron_dict1)[2], len(indiv_neuron_dict2),
                    neuron_covered(indiv_neuron_dict2)[2], len(indiv_neuron_dict3),
                    neuron_covered(indiv_neuron_dict3)[2]) + bcolors.ENDC)
@@ -197,7 +197,7 @@ for seed_iter in xrange(args.seeds):
                 neuron_covered(indiv_neuron_dict3)[
                     1])
             print(bcolors.OKGREEN + 'ORIGINAL averaged covered neurons %.3f' % averaged_nc + bcolors.ENDC)
-            print(bcolors.OKGREEN + 'CORRECTED averaged covered neurons %.3f' % averaged_nc_corrected + bcolors.ENDC)
+            print(bcolors.OKGREEN + 'CORRECTED [unscaled] averaged covered neurons %.3f' % averaged_nc_corrected + bcolors.ENDC)
 
             gen_img_deprocessed = deprocess_image(gen_img)
             orig_img_deprocessed = deprocess_image(orig_img)
@@ -215,4 +215,4 @@ for seed_iter in xrange(args.seeds):
             iteration_stats['nc_corrected_avg'] = averaged_nc_corrected
             break
 
-print("Stats for iteration {iter}: diffs_found = {num_generated}, original nc = {nc_original_avg}, corrected nc = {nc_corrected_avg}".format(**iteration_stats))
+print("Stats for iteration {iter}: diffs_found = {num_generated}, original nc = {nc_original_avg}, corrected [unscaled] nc = {nc_corrected_avg}".format(**iteration_stats))
