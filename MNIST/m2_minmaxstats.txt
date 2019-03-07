@@ -1,0 +1,8 @@
+Printing layer-level minimum and maximum neuron activations for file m2.p
+Layer 'before_softmax' min/max: (-22.508568, 28.359055)
+Layer 'fc1' min/max: (0.0, 15.218948)
+Layer 'block2_conv1' min/max: (0.0, 8.887648)
+Layer 'block1_pool1' min/max: (0.0, 2.9780643)
+Layer 'predictions' min/max: (5.247229e-21, 1.0)
+Layer 'block1_conv1' min/max: (0.0, 2.9780643)
+Layer 'block2_pool1' min/max: (0.0, 8.887648)
