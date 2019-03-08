@@ -1,0 +1,627 @@
+[94mModel1 loaded[0m
+[94mModel2 loaded[0m
+[94mModel3 loaded[0m
+Init dict------
+<type 'tuple'>
+(None, 28, 28, 4)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 14, 14, 4)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 14, 14, 12)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 7, 7, 12)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 10)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 10)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 28, 28, 6)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 14, 14, 6)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 14, 14, 16)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 7, 7, 16)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 84)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 10)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 10)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 28, 28, 6)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 14, 14, 6)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 14, 14, 16)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 7, 7, 16)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 120)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 84)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 10)
+End init dict -----
+Init dict------
+<type 'tuple'>
+(None, 10)
+End init dict -----
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.695, 9904 neurons 0.619, 10024 neurons 0.658[0m
+[92maveraged covered neurons 0.653[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.803, 9904 neurons 0.736, 10024 neurons 0.778[0m
+[92maveraged covered neurons 0.769[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.855, 9904 neurons 0.790, 10024 neurons 0.846[0m
+[92maveraged covered neurons 0.828[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.874, 9904 neurons 0.828, 10024 neurons 0.875[0m
+[92maveraged covered neurons 0.858[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.903, 9904 neurons 0.865, 10024 neurons 0.909[0m
+[92maveraged covered neurons 0.892[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.913, 9904 neurons 0.884, 10024 neurons 0.924[0m
+[92maveraged covered neurons 0.907[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.918, 9904 neurons 0.894, 10024 neurons 0.930[0m
+[92maveraged covered neurons 0.914[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.934, 9904 neurons 0.909, 10024 neurons 0.940[0m
+[92maveraged covered neurons 0.927[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.936, 9904 neurons 0.910, 10024 neurons 0.942[0m
+[92maveraged covered neurons 0.928[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.936, 9904 neurons 0.912, 10024 neurons 0.943[0m
+[92maveraged covered neurons 0.930[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.948, 9904 neurons 0.921, 10024 neurons 0.954[0m
+[92maveraged covered neurons 0.940[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.950, 9904 neurons 0.927, 10024 neurons 0.958[0m
+[92maveraged covered neurons 0.945[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.951, 9904 neurons 0.929, 10024 neurons 0.961[0m
+[92maveraged covered neurons 0.947[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.961, 9904 neurons 0.941, 10024 neurons 0.966[0m
+[92maveraged covered neurons 0.955[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.961, 9904 neurons 0.941, 10024 neurons 0.966[0m
+[92maveraged covered neurons 0.956[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.966, 9904 neurons 0.944, 10024 neurons 0.969[0m
+[92maveraged covered neurons 0.959[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.968, 9904 neurons 0.946, 10024 neurons 0.971[0m
+[92maveraged covered neurons 0.961[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.968, 9904 neurons 0.947, 10024 neurons 0.972[0m
+[92maveraged covered neurons 0.962[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.974, 9904 neurons 0.950, 10024 neurons 0.977[0m
+[92maveraged covered neurons 0.966[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.977, 9904 neurons 0.950, 10024 neurons 0.979[0m
+[92maveraged covered neurons 0.968[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.978, 9904 neurons 0.953, 10024 neurons 0.980[0m
+[92maveraged covered neurons 0.969[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.978, 9904 neurons 0.956, 10024 neurons 0.981[0m
+[92maveraged covered neurons 0.971[0m
+[92minput already causes different outputs: 8, 4, 4[0m
+[92mcovered neurons percentage 6880 neurons 0.979, 9904 neurons 0.958, 10024 neurons 0.982[0m
+[92maveraged covered neurons 0.972[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.979, 9904 neurons 0.962, 10024 neurons 0.982[0m
+[92maveraged covered neurons 0.974[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.982, 9904 neurons 0.968, 10024 neurons 0.985[0m
+[92maveraged covered neurons 0.978[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.982, 9904 neurons 0.968, 10024 neurons 0.986[0m
+[92maveraged covered neurons 0.978[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.982, 9904 neurons 0.971, 10024 neurons 0.986[0m
+[92maveraged covered neurons 0.979[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.982, 9904 neurons 0.971, 10024 neurons 0.986[0m
+[92maveraged covered neurons 0.979[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.982, 9904 neurons 0.971, 10024 neurons 0.986[0m
+[92maveraged covered neurons 0.979[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.982, 9904 neurons 0.971, 10024 neurons 0.986[0m
+[92maveraged covered neurons 0.979[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.982, 9904 neurons 0.974, 10024 neurons 0.986[0m
+[92maveraged covered neurons 0.981[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.982, 9904 neurons 0.976, 10024 neurons 0.986[0m
+[92maveraged covered neurons 0.981[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.983, 9904 neurons 0.976, 10024 neurons 0.986[0m
+[92maveraged covered neurons 0.982[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.983, 9904 neurons 0.977, 10024 neurons 0.986[0m
+[92maveraged covered neurons 0.982[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.984, 9904 neurons 0.978, 10024 neurons 0.986[0m
+[92maveraged covered neurons 0.982[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.986, 9904 neurons 0.979, 10024 neurons 0.989[0m
+[92maveraged covered neurons 0.984[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.987, 9904 neurons 0.980, 10024 neurons 0.991[0m
+[92maveraged covered neurons 0.986[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.987, 9904 neurons 0.981, 10024 neurons 0.991[0m
+[92maveraged covered neurons 0.986[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.988, 9904 neurons 0.981, 10024 neurons 0.991[0m
+[92maveraged covered neurons 0.986[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.988, 9904 neurons 0.981, 10024 neurons 0.991[0m
+[92maveraged covered neurons 0.987[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.988, 9904 neurons 0.981, 10024 neurons 0.991[0m
+[92maveraged covered neurons 0.987[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.988, 9904 neurons 0.981, 10024 neurons 0.991[0m
+[92maveraged covered neurons 0.987[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.988, 9904 neurons 0.981, 10024 neurons 0.991[0m
+[92maveraged covered neurons 0.987[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.988, 9904 neurons 0.982, 10024 neurons 0.991[0m
+[92maveraged covered neurons 0.987[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.990, 9904 neurons 0.983, 10024 neurons 0.993[0m
+[92maveraged covered neurons 0.988[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.990, 9904 neurons 0.983, 10024 neurons 0.993[0m
+[92maveraged covered neurons 0.988[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.983, 10024 neurons 0.993[0m
+[92maveraged covered neurons 0.989[0m
+[92minput already causes different outputs: 6, 5, 1[0m
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.983, 10024 neurons 0.993[0m
+[92maveraged covered neurons 0.989[0m
+[92minput already causes different outputs: 5, 2, 2[0m
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.984, 10024 neurons 0.993[0m
+[92maveraged covered neurons 0.989[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.984, 10024 neurons 0.993[0m
+[92maveraged covered neurons 0.989[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.984, 10024 neurons 0.994[0m
+[92maveraged covered neurons 0.989[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.984, 10024 neurons 0.994[0m
+[92maveraged covered neurons 0.989[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.984, 10024 neurons 0.994[0m
+[92maveraged covered neurons 0.989[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.984, 10024 neurons 0.994[0m
+[92maveraged covered neurons 0.990[0m
+[92minput already causes different outputs: 8, 3, 8[0m
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.984, 10024 neurons 0.994[0m
+[92maveraged covered neurons 0.990[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.984, 10024 neurons 0.994[0m
+[92maveraged covered neurons 0.990[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.984, 10024 neurons 0.994[0m
+[92maveraged covered neurons 0.990[0m
+[92minput already causes different outputs: 4, 7, 2[0m
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.984, 10024 neurons 0.994[0m
+[92maveraged covered neurons 0.990[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.984, 10024 neurons 0.994[0m
+[92maveraged covered neurons 0.990[0m
+[92minput already causes different outputs: 2, 3, 3[0m
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.984, 10024 neurons 0.994[0m
+[92maveraged covered neurons 0.990[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.984, 10024 neurons 0.994[0m
+[92maveraged covered neurons 0.990[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.991, 9904 neurons 0.985, 10024 neurons 0.994[0m
+[92maveraged covered neurons 0.990[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.992, 9904 neurons 0.985, 10024 neurons 0.994[0m
+[92maveraged covered neurons 0.990[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.992, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.992, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.992, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.986, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.987, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.993, 9904 neurons 0.987, 10024 neurons 0.995[0m
+[92maveraged covered neurons 0.991[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.994, 9904 neurons 0.987, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.994, 9904 neurons 0.987, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+[92minput already causes different outputs: 3, 2, 2[0m
+[92mcovered neurons percentage 6880 neurons 0.994, 9904 neurons 0.987, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.994, 9904 neurons 0.987, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.994, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.994, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.994, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.994, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+[92minput already causes different outputs: 7, 7, 1[0m
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.988, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.993[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+[92minput already causes different outputs: 4, 7, 7[0m
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.997[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+[92minput already causes different outputs: 9, 4, 4[0m
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.989, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+[92minput already causes different outputs: 6, 8, 8[0m
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.995, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.996, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.996, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.994[0m
+Found output which causes difference in models' predictions.
+[92mcovered neurons percentage 6880 neurons 0.996, 9904 neurons 0.990, 10024 neurons 0.998[0m
+[92maveraged covered neurons 0.
