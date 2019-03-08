@@ -151,13 +151,15 @@ def update_coverage(input_data, model, model_layer_dict, indiv_neuron_dict, thre
     intermediate_layer_outputs = intermediate_layer_model.predict(input_data)
 
     for i, intermediate_layer_output in enumerate(intermediate_layer_outputs):
-        scaled = scale(intermediate_layer_output[0])
+        unscaled = intermediate_layer_output[0]
+        scaled = scale(unscaled)
         for num_neuron in xrange(scaled.shape[-1]):
             if np.mean(scaled[..., num_neuron]) > threshold and not model_layer_dict[(layer_names[i], num_neuron)]:
                 model_layer_dict[(layer_names[i], num_neuron)] = True
 
-        for neuron in range(num_neurons(scaled.shape)):
-            neuron_value = scaled[np.unravel_index(neuron, scaled.shape)]
+        # true NC definition
+        for neuron in range(num_neurons(unscaled.shape)):
+            neuron_value = unscaled[np.unravel_index(neuron, unscaled.shape)]
             if (neuron_value > threshold) and not indiv_neuron_dict[(layer_names[i], neuron)]:
                 indiv_neuron_dict[(layer_names[i], neuron)] = True
 
