@@ -1,5 +1,10 @@
 # DeepXplore: Systematic DNN testing  (SOSP'17)
 See the SOSP'17 paper [DeepXplore: Automated Whitebox Testing of Deep Learning Systems](http://www.cs.columbia.edu/~suman/docs/deepxplore.pdf) for more details.
+
+This is a fork of the original DeepXplore implementation to measure the difference between neuron coverage as implemented and as described in the paper. Results can be found in the `official_report_results` folder. 
+
+Note that this is not the primary branch for DeepXplore++. Please check the `deepxplore++` branch for more details on the project.
+
 ## Prerequisite
 ### Python
 The code should be run using python 2.7.12, Tensorflow 1.3.0, Keras 2.0.8, PIL, h5py, and opencv-python
