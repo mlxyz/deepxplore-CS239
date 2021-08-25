@@ -9,7 +9,8 @@ from __future__ import print_function
 from keras.datasets import mnist
 from keras.layers import Convolution2D, MaxPooling2D, Input, Dense, Activation, Flatten
 from keras.models import Model
-from keras.utils import to_categorical
+import tensorflow as tf
+from tf.keras.utils import to_categorical
 
 from configs import bcolors
 
