@@ -154,7 +154,7 @@ for img in x_test:
         loss3 = -args.weight_diff * K.mean(model3.get_layer('before_softmax').output[..., orig_label])
 
     # we run gradient ascent for 20 steps
-    for iters in xrange(args.grad_iterations):
+    for iters in range(args.grad_iterations):
 
         layer_name1, index1 = neuron_to_cover(m1_dict[args.coverage])
         layer_name2, index2 = neuron_to_cover(m2_dict[args.coverage])
