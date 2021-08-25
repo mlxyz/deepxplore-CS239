@@ -4,7 +4,7 @@ from collections import defaultdict
 import numpy as np
 from keras import backend as K
 from keras.models import Model
-
+from itertools import reduce
 
 # util function to convert a tensor into a valid image
 def deprocess_image(x):
