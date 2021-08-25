@@ -72,9 +72,9 @@ m1_dict["snac_test"], m2_dict["snac_test"], m3_dict["snac_test"] = init_coverage
 m1_dict["nc"], m2_dict["nc"], m3_dict["nc"] = init_coverage_tables(model1, model2, model3)
 m1_dict["nc_test"], m2_dict["nc_test"], m3_dict["nc_test"] = init_coverage_tables(model1, model2, model3)
 
-m1_hl = pickle.load(open("m1-10000-samples.p", "rb"))
-m2_hl = pickle.load(open("m2-10000-samples.p", "rb"))
-m3_hl = pickle.load(open("m3-10000-samples.p", "rb"))
+m1_hl = pickle.load(open("m1-10000-samples.p", "rb"), encoding='latin1')
+m2_hl = pickle.load(open("m2-10000-samples.p", "rb"), encoding='latin1')
+m3_hl = pickle.load(open("m3-10000-samples.p", "rb"), encoding='latin1')
 
 def outputCoverage(m1, m2, m3, c):
     print(bcolors.OKGREEN + '%s percentage %d neurons %.3f, %d neurons %.3f, %d neurons %.3f'
