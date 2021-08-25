@@ -10,7 +10,7 @@ from keras.datasets import mnist
 from keras.layers import Convolution2D, MaxPooling2D, Input, Dense, Activation, Flatten
 from keras.models import Model
 import tensorflow as tf
-from tf.keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 
 from configs import bcolors
 
