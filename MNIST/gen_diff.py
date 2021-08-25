@@ -5,7 +5,8 @@ usage: python gen_diff.py -h
 from __future__ import print_function
 
 import argparse
-
+import tensorflow as tf
+tf.compat.v1.disable_eager_execution()
 from keras.datasets import mnist
 from keras.layers import Input
 from imageio import imwrite
