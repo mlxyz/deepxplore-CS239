@@ -94,7 +94,7 @@ def update_coverage(input_data, model, model_layer_dict, model_layer_hl_dict, te
 
     for i, intermediate_layer_output in enumerate(intermediate_layer_outputs):
         layer = intermediate_layer_output[0]
-        for neuron in xrange(num_neurons(layer.shape)): # index through every single (indiv) neuron
+        for neuron in range(num_neurons(layer.shape)): # index through every single (indiv) neuron
             _,high = model_layer_hl_dict[(layer_names[i], neuron)]
 
             # evaluate snac criteria
