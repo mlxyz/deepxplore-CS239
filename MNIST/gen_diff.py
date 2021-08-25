@@ -8,7 +8,7 @@ import argparse
 
 from keras.datasets import mnist
 from keras.layers import Input
-from scipy.misc import imsave
+from imageio import imwrite
 
 from Model1 import Model1
 from Model2 import Model2
@@ -132,7 +132,7 @@ for img in x_test:
         gen_img_deprocessed = deprocess_image(gen_img)
 
         # save the result to disk
-        imsave(GEN_INPUTS_DIR + 'already_differ_' + str(label1) + '_' + str(
+        imwrite(GEN_INPUTS_DIR + 'already_differ_' + str(label1) + '_' + str(
             label2) + '_' + str(label3) + '.png', gen_img_deprocessed)
         continue
 
@@ -202,10 +202,10 @@ for img in x_test:
             orig_img_deprocessed = deprocess_image(orig_img)
 
             # save the result to disk
-            imsave(GEN_INPUTS_DIR + args.transformation + '_' + str(predictions1) + '_' + str(
+            imwrite(GEN_INPUTS_DIR + args.transformation + '_' + str(predictions1) + '_' + str(
                 predictions2) + '_' + str(predictions3) + '.png',
                    gen_img_deprocessed)
-            imsave(GEN_INPUTS_DIR + args.transformation + '_' + str(predictions1) + '_' + str(
+            imwrite(GEN_INPUTS_DIR + args.transformation + '_' + str(predictions1) + '_' + str(
                 predictions2) + '_' + str(predictions3) + '_orig.png',
                    orig_img_deprocessed)
             break
